@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (3.1.5)
+  - Google-Maps-iOS-SDK (1.9.2)
+  - KCFloatingActionButton (1.1.9)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Google-Maps-iOS-SDK
+  - KCFloatingActionButton
+  - Reachability
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Google-Maps-iOS-SDK: 7f89cc1edb3ca239a410e5bc83cd1e060db3a289
+  KCFloatingActionButton: fc51d1e88143000c7ab4a22d754be9129202cdc6
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.39.0

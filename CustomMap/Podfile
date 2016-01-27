@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'CustomMap' do
+pod 'Google-Maps-iOS-SDK'
+pod 'Alamofire'
+pod 'Reachability'
+pod 'KCFloatingActionButton'
+end
+
