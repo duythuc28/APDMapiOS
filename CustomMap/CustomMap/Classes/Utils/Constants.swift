@@ -56,6 +56,13 @@ extension String {
     // MARK: Google Map Key
     static let kDefineGoogleMapKey = "AIzaSyATXG0GMu-xGkxQhXEqIe0Tbi8BgAm4G14"
     
+    static func checkNilValue (string:String?) -> String {
+        if let notNilString = string {
+            return notNilString
+        }
+        return ""
+    }
+    
     /*********************************************************/
 }
 

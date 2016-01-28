@@ -38,6 +38,9 @@ class APMapViewController: UIViewController {
         fab.buttonColor = UIColor.orangeColor()
         fab.plusColor   = UIColor.whiteColor()
         fab.addItem(title: "Hello, World!")
+        fab.addItem("", icon: UIImage(named: "Menu")!) { (KCFloatingActionButtonItem) -> Void in
+            print("Test")
+        }
         self.view.addSubview(fab)
     }
     
