@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'CustomMap' do
+pod 'GoogleMaps', '~> 1.11'
+pod 'Alamofire'
+pod 'Reachability'
+pod 'KCFloatingActionButton'
+pod 'AlamofireObjectMapper', '~> 2.1'
+end
+
