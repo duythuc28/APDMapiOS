@@ -23,6 +23,7 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate {
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
+            self.revealViewController().customSlideOutMenu(self.revealViewController(), revealWidth: self.view.frame.size.width * 0.8, toogleAnimationType: SWRevealToggleAnimationType.EaseOut, toogleAnimationDuration: 0.3)
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         
@@ -85,7 +86,7 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate {
      Setup map view
      */
     func loadMapView () {
-        let camera: GMSCameraPosition = GMSCameraPosition.cameraWithLatitude(48.857165, longitude: 2.354613, zoom: 8.0)
+        let camera: GMSCameraPosition = GMSCameraPosition.cameraWithLatitude(10.775659, longitude: 106.700424, zoom: 15)
         mapView.camera = camera
         mapView.myLocationEnabled = true
         mapView.settings.myLocationButton = true

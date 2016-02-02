@@ -31,6 +31,15 @@ class Constants: NSObject {
     }
 }
 
+
+extension SWRevealViewController {
+    func customSlideOutMenu (controller:SWRevealViewController, revealWidth:CGFloat , toogleAnimationType: SWRevealToggleAnimationType ,toogleAnimationDuration:CGFloat) {
+        controller.rearViewRevealWidth = revealWidth
+        controller.toggleAnimationType = toogleAnimationType
+        controller.toggleAnimationDuration = toggleAnimationDuration
+    }
+}
+
 extension String {
     
     /*********************************************************/
