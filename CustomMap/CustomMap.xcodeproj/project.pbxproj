@@ -50,6 +50,7 @@
 		6AC827F81C58A3BC00141320 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC827F71C58A3BC00141320 /* OpenGLES.framework */; };
 		6AC827FA1C58A3C100141320 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC827F91C58A3C100141320 /* QuartzCore.framework */; };
 		6AC827FC1C58A3C700141320 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC827FB1C58A3C700141320 /* SystemConfiguration.framework */; };
+		8B21C5E01C610F3B00A4914D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21C5DF1C610F3B00A4914D /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +79,6 @@
 		6A9A05931C59C3E2009F56EE /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		6A9A05961C59C4D3009F56EE /* MapDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
 		6A9A05981C59C7ED009F56EE /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
-		6A9A05C51C59D416009F56EE /* CustomMap copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CustomMap copy-Info.plist"; path = "/Volumes/Data/iOS/Swift/APDMap/CustomMap/CustomMap copy-Info.plist"; sourceTree = "<absolute>"; };
 		6A9A05CA1C59D446009F56EE /* CustomMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9A05CC1C59D447009F56EE /* CustomMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapTests.swift; sourceTree = "<group>"; };
 		6A9A05CE1C59D447009F56EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +116,7 @@
 		6AC827F71C58A3BC00141320 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		6AC827F91C58A3C100141320 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6AC827FB1C58A3C700141320 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B21C5DF1C610F3B00A4914D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		8E900159CEF32D28A980BC33 /* Pods_CustomMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1978D0D28DB49DA471EB79 /* Pods-CustomMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomMap/Pods-CustomMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B21C5E01C610F3B00A4914D /* GoogleMaps.framework in Frameworks */,
 				6AC827FC1C58A3C700141320 /* SystemConfiguration.framework in Frameworks */,
 				6AC827FA1C58A3C100141320 /* QuartzCore.framework in Frameworks */,
 				6AC827F81C58A3BC00141320 /* OpenGLES.framework in Frameworks */,
@@ -218,7 +220,6 @@
 				6AC827AC1C58702000141320 /* Products */,
 				09E569368A32177789C31678 /* Pods */,
 				96F436B7A1CBA17F2D967677 /* Frameworks */,
-				6A9A05C51C59D416009F56EE /* CustomMap copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -361,6 +362,7 @@
 		96F436B7A1CBA17F2D967677 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B21C5DF1C610F3B00A4914D /* GoogleMaps.framework */,
 				6A5C89F41C5F55FE000A4F24 /* Pods_CustomMap.framework */,
 				6AC827FB1C58A3C700141320 /* SystemConfiguration.framework */,
 				6AC827F91C58A3C100141320 /* QuartzCore.framework */,
@@ -726,7 +728,7 @@
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
 				);
 				INFOPLIST_FILE = CustomMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -744,7 +746,7 @@
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
 				);
 				INFOPLIST_FILE = CustomMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -87,6 +87,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-CustomMap/Alamofire.framework"
   install_framework "Pods-CustomMap/AlamofireObjectMapper.framework"
   install_framework "Pods-CustomMap/KCFloatingActionButton.framework"
+  install_framework "Pods-CustomMap/LiquidFloatingActionButton.framework"
   install_framework "Pods-CustomMap/ObjectMapper.framework"
   install_framework "Pods-CustomMap/Reachability.framework"
 fi
@@ -94,6 +95,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CustomMap/Alamofire.framework"
   install_framework "Pods-CustomMap/AlamofireObjectMapper.framework"
   install_framework "Pods-CustomMap/KCFloatingActionButton.framework"
+  install_framework "Pods-CustomMap/LiquidFloatingActionButton.framework"
   install_framework "Pods-CustomMap/ObjectMapper.framework"
   install_framework "Pods-CustomMap/Reachability.framework"
 fi

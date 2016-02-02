@@ -27,8 +27,6 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate {
         }
         
         RESTRequest(subPath: "", functionName: "location_type", requestMethod: RESTRequestMethod.GET).invokeRequest { (result, error) -> Void in
-//            print (result)
-//            print (result.result.error!)
         }
     }
     

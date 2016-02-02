@@ -5,6 +5,7 @@ PODS:
     - ObjectMapper (~> 1.0)
   - GoogleMaps (1.11.1)
   - KCFloatingActionButton (1.1.9)
+  - LiquidFloatingActionButton (0.1.1)
   - ObjectMapper (1.1.1)
   - Reachability (3.2)
 
@@ -13,13 +14,26 @@ DEPENDENCIES:
   - AlamofireObjectMapper (~> 2.1)
   - GoogleMaps (~> 1.11)
   - KCFloatingActionButton
+  - LiquidFloatingActionButton (from `https://github.com/yoavlt/LiquidFloatingActionButton.git`,
+    branch `swift-2.0`)
   - Reachability
+
+EXTERNAL SOURCES:
+  LiquidFloatingActionButton:
+    :branch: swift-2.0
+    :git: https://github.com/yoavlt/LiquidFloatingActionButton.git
+
+CHECKOUT OPTIONS:
+  LiquidFloatingActionButton:
+    :commit: ae0ba8265dbf8ea80ff7dd20b3e72e8a728ce930
+    :git: https://github.com/yoavlt/LiquidFloatingActionButton.git
 
 SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
   AlamofireObjectMapper: 24097576202064f8b0a583452dd934064f78dc0e
   GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
   KCFloatingActionButton: fc51d1e88143000c7ab4a22d754be9129202cdc6
+  LiquidFloatingActionButton: dcdae1e59eb07eccbf60c027001a4d6731c345c9
   ObjectMapper: 4143abed1dbd49b73d75092fe8fa1c88ed6434b7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 

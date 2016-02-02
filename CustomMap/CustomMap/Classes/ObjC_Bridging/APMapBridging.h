@@ -10,7 +10,7 @@
 #define APMapBridging_h
 
 #import "SWRevealViewController.h"
-#import <GoogleMaps/GoogleMaps.h>
+#import "GoogleMaps/GoogleMaps.h"
 #import "Location.h"
 
 #endif /* APMapBridging_h */
