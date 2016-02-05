@@ -25,8 +25,7 @@ class RESTContants: NSObject {
     static let kDefineRequestTimeOut                    = 90.0
     
     //MARK: Webservice url
-    static let kDefineWebserviceUrl                     = "http://drdvietnam.org/bandotiepcan/api/get"
-//    static let kDefineWebserviceUrl                     = "128.199.255.145/findshop.api/"
+    static let kDefineWebserviceUrl                     = "http://drdvietnam.org/bandotiepcan/api/"
     static let kDefineWebserviceResourceUrl             = ""
 }
 

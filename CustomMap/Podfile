@@ -8,5 +8,6 @@ pod 'KCFloatingActionButton'
 pod 'AlamofireObjectMapper', '~> 2.1'
 pod 'GoogleMaps', '~> 1.11'
 pod 'LiquidFloatingActionButton' ,:git => 'https://github.com/yoavlt/LiquidFloatingActionButton.git' , :branch => 'swift-2.0'
+pod 'NVActivityIndicatorView', '~> 2.3'
 end
 

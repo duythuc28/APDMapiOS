@@ -44,16 +44,12 @@ extension String {
     
     /*********************************************************/
     // MARK: Web service
-    static let kDefineWebServiceAPIUrl              = "TEST"
-    static let kDefineWebServiceResourcesUrl        = "TEST"
-    
-    // API Get Location
-    #define LOCATION_API @"http://www.drdvietnam.org/bandotiepcan/api/get/locations?Time="
-    // API Get AccessType
-    #define ACCESSTYPE_API @"http://www.drdvietnam.org/bandotiepcan/api/get/access_types?Time="
-    // API Get Location Type
-    #define LOCATIONTYPE_API @"http://www.drdvietnam.org/bandotiepcan/api/get/location_types?Time="
-    
+//    static let kDefineWebServiceAPIUrl              = "TEST"
+//    static let kDefineWebServiceResourcesUrl        = "TEST"
+    static let kDefineWebServiceAPIGetLocationURL = "locations"
+    static let kDefineWebServiceAPIGetAccessTypesURL = "access_types"
+    static let kDefineWebServiceAPIGetLocationTypesURL = "location_types"
+
     /*********************************************************/
     // MARK: Font name
     

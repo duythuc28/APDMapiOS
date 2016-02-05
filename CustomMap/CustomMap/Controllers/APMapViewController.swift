@@ -8,11 +8,14 @@
 
 import UIKit
 import KCFloatingActionButton
-class APMapViewController: UIViewController ,CLLocationManagerDelegate {
+import NVActivityIndicatorView
+
+class APMapViewController: UIViewController ,CLLocationManagerDelegate , GMSMapViewDelegate {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     @IBOutlet weak var mapView: GMSMapView!
+    
     
     let locationManager = CLLocationManager()
     
@@ -27,7 +30,14 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate {
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         
-        RESTRequest(subPath: "", functionName: "location_type", requestMethod: RESTRequestMethod.GET).invokeRequest { (result, error) -> Void in
+        let activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: self.view.center.x - 15, y: self.view.center.y - 15, width: 30, height: 30))
+        activityIndicatorView.color = UIColor.orangeColor()
+        activityIndicatorView.type = NVActivityIndicatorType.CubeTransition
+        activityIndicatorView.startAnimation()
+        self.view.addSubview(activityIndicatorView)
+        
+        RESTRequest(subPath: "get", functionName: String.kDefineWebServiceAPIGetLocationURL , requestMethod: RESTRequestMethod.GET).invokeRequest { (result, error) -> Void in
+            
         }
     }
     
@@ -40,7 +50,6 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate {
     func setUpView () {
         self.loadMapView()
         self.createFloatingButton()
-        
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
     }
@@ -90,7 +99,35 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate {
         mapView.camera = camera
         mapView.myLocationEnabled = true
         mapView.settings.myLocationButton = true
+        mapView.delegate = self
+        
+        let position = CLLocationCoordinate2DMake(10.775659,106.700424)
+        let london = GMSMarker(position: position)
+        london.title = "London";
+        london.icon = UIImage(named: "Marker")
+//        london.infoWindowAnchor = CGPoint(x: 0.44, y: 0.45)
+        london.map = mapView;
     }
+    
+    func mapView(mapView: GMSMapView!, markerInfoWindow marker: GMSMarker!) -> UIView! {
+        let infoWindow = NSBundle.mainBundle().loadNibNamed("APInfoView", owner: self, options: nil)[0] as! APInfoView
+        infoWindow.infoTitle.text = "Test"
+        infoWindow.infoDescription.text = "Test test"
+        return infoWindow
+    }
+    
+//    func mapView(mapView: GMSMapView!, didTapMarker marker: GMSMarker!) -> Bool {
+//
+//        let infoWindow = NSBundle.mainBundle().loadNibNamed("APInfoView", owner: self, options: nil)[0] as! APInfoView
+//        let startPoint = mapView.projection.pointForCoordinate(marker.position)
+//        let markerPoint = CGPoint(x: startPoint.x - 20, y: startPoint.y)
+//        let startView  = UIView(frame: CGRect(origin: markerPoint, size:CGSize(width: 50, height: 50)))
+//        self.view.addSubview(startView)
+//
+//        return true
+//    }
+    
+    
     
     @IBAction func didSelectMenuButton(sender: AnyObject) {
         

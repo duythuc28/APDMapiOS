@@ -7,85 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010D0602F0F452F2694E6F44EC8469D6 /* Response.swift */; };
-		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B8088C0694271BF50F8691C999F04A /* Upload.swift */; };
-		0995A73F3E53ADF4D92D471A30487ABA /* KCFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F74C686EF5D00AD9ABFF3F79929351 /* KCFloatingActionButton-dummy.m */; };
-		0A7C4FCF247DEC45FF2DC596C59D26C0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7DE19FABDCD0F1A6A860EE4E0EFF4 /* Map.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		10D8C2E9C467A7EC7C35BF2534145427 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA726CC44CE1890B05DD6610B5FCB13 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		144405A414830766CD06305169178402 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FA941E610F15C6DF543C64C48B346 /* CGRectEx.swift */; };
-		1517882EAEBCC7BD4E2232FD64E6E6F4 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159C3E909915B8C02994E3DDDC08AE07 /* CustomDateFormatTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AA3B748A5AE42A5D21020255313D9CB /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786E1A76599956FE47D3940298E64BB0 /* Reachability-dummy.m */; };
-		1D5FBE46901C325E761E59519EBCB310 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED793EEB96ADDBC9991225580950774 /* ObjectMapper.framework */; };
-		20AA2C8D4249F1C44D21FD06E897B67C /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E26F893E89E57C6EC163AF40C8507D0 /* DateFormatterTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		23732EAFED98958C717909CFD92CD37D /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED7DA6806C66337385491FB5128FD1 /* ToJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC3FFFCCA736BFA2BF7541C55FF645F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EEC8F08930807E210F714F8B6734B31 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052D77DA5E3ACD0AA114D0F011E3179 /* Mappable.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3A46196AF1F5C6F70BC8007639A127CD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B95D75E059AF4164C306F8205702C4 /* Reachability.m */; };
-		3A6502171B181276231C2E92BB25FF94 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBC6714D8F130AADF691BA0C9CA426D /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4244375967A72339B965317FB0B307AD /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D4DF3DFCB5436F6CC2242E9F00150E /* ArrayEx.swift */; };
-		48903DF2FF8D2378A210831BB05CD9F3 /* AlamofireObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E03B26F36DCAD7C43F2373A8AF1A38D /* AlamofireObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323251A38D23ADBEFCC468123F346F3F /* ParameterEncoding.swift */; };
-		4E0909C9F5935CF17E4FAD678933A773 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6A7A52C29B1719A661ED28283DCBF9 /* Mapper.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5A24AFA8959F8458C68F7A4DB16EEB15 /* KCFloatingActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334509BFE7EA3F6D5E1DB83AC5FC0FD /* KCFloatingActionButtonItem.swift */; };
-		5FBBB3A122CEA1951C3104AEA6F5100C /* LiquidFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AADA7CD00B1F64CA83190547D1E597C2 /* LiquidFloatingActionButton-dummy.m */; };
-		60D0250151B70A04310BD6548EE5BF00 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA7E383F85733BC765A76DAAEA848A5 /* SystemConfiguration.framework */; };
-		64EDED58F2EDDF62A8FF9D9DCEC08AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		6BC974AF6708E052C50DE397CADEED6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		6E12B3A1156A1C9A2DDE41F0011EA412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		72042359B6606B6363E495430D780479 /* LiquidFloatingActionButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59872DDEDD93834D8B0D0921BE2EE28D /* LiquidFloatingActionButton.bundle */; };
-		7734E7B4F9D9C39AAEDC6ED8AD0316E4 /* Pods-CustomMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3258A84710E27A3665BBE70F70327E /* Pods-CustomMap-dummy.m */; };
-		7C4A7782F2A3F28C5A5E5C751406E528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561018E37FC2DC287B389C0E31149AC /* ServerTrustPolicy.swift */; };
-		8272CEFFDEB538F5A5F59393B0216B1C /* KCFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0691359873F986DE0C3FA1C230C0B028 /* KCFloatingActionButton.swift */; };
-		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DAA57D48D7039612AC6B3EC801A614 /* Result.swift */; };
-		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039BAB4AC66C8E8217BB85F45B9F0EF /* MultipartFormData.swift */; };
-		8E78F95F2AF5001039013A993626261A /* KCFABWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA534CD4783769FD39ACB28F5B03047 /* KCFABWindow.swift */; };
-		91FC37CED596C47BA4A1B1F595072457 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9150CB4974CE2D485C39BFD00D5A1EE /* TransformType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9580C61F741506C97B703379DB9B9D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119558FF90B7E9F9246EE8146DBC5500 /* UIKit.framework */; };
-		967739472AF27D091CEC61A16F3D5490 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE68A4092BCB201D1B9DC8C00AB1FF3 /* TransformOf.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		9F95DA5E02FB33ADF42241D2CCEE2369 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF73F652B6E1F2A55F5D388B04CFEEA /* AlamofireObjectMapper.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A23CC8FFB4C64CF33E7FE9CC365CEBF5 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CBBE285D465D6F9E8BCC94365FF0DD /* URLTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD0D91519C590D7115B9D4F15E71BD /* Manager.swift */; };
-		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F16DB9AE7DB5C4481DEDDE85BF6EFA /* Download.swift */; };
-		AE59C3FD0BEF00C2CCAB0E64C00EC6F2 /* LiquidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0684B8BD4A5B37FFDF5DD43EAD555 /* LiquidUtil.swift */; };
-		AF71B63F7B7FB9C09F4A1424BAFE1360 /* LiquidFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D4C029551AFCA48BB0D277C03BF691 /* LiquidFloatingActionButton.swift */; };
-		AF77141790962DE11CC474122881D41E /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDC777F85EDDE9C4EBFB665F3289FB /* FromJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A55D4386C6CBD9F5005E49D28B0C4 /* Alamofire.swift */; };
-		B3BDBC4EEC4F219579C4B24E7D4E6638 /* KCFABManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C9E78C0F1C0DB20DAF5252C94C974 /* KCFABManager.swift */; };
-		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 822F83D5E54219EC1EE8B1CE8FF8D14F /* Alamofire-dummy.m */; };
-		BA98EBDB57D30CC7369E42012CB3FB34 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EBDBFAE33234D5FD9723887AD36BB /* CGPointEx.swift */; };
-		BCD46D72F2A27D0DF398386FF30B8F26 /* LiquittableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EA6BB945D380CD4AE22ED1808170C /* LiquittableCircle.swift */; };
-		BE63624389C47DCBC004F028463F105A /* AlamofireObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 566790FFA5A53060F687D0D021B0126F /* AlamofireObjectMapper-dummy.m */; };
-		C38A6E49240BCCAD3636DEB94FD49E23 /* KCFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A524D2310546E746A5E21EFED3BF3B7 /* KCFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C41211CCDDFF7CBBBD282E65B8D284BF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613AC4DE03FE35E53FA7A7AF21C5D152 /* Operators.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1248C201F4659F861D65E948CA765462 /* Validation.swift */; };
-		CA1BDA58C633932A681CE63C165932E5 /* KCFABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D90E595060CB828D2F302A49406AB /* KCFABViewController.swift */; };
-		CA926AED9ECC8A669A85E5E4F3C96E5A /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2D3C7207FA06C411CD1605F4D11BE /* ObjectMapper-dummy.m */; };
-		CD635561809D218A952928FCA3BC1B78 /* LiquidFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B69A8BF7E90E65CFD94A6B8D572D0 /* LiquidFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DF4C52EC6D2B67436C5A837812C69 /* ResponseSerialization.swift */; };
-		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8D782426CEB49468166C0F4E41B32 /* Error.swift */; };
-		D9936E1A3C1D9E979E3DD506ECFF22BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		DB0D31FDF40C1AE86E988CAB5F7D6578 /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD63F2EBBB3E1C2DE714D7BD250D133 /* SimpleCircleLiquidEngine.swift */; };
-		DD9B6FC8D0FCE62942FEB6445864DE01 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA355C57C6E3F7E63248A561070470 /* ISO8601DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DDDBA8732328CE62515E968EA510538F /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BB162210C1278FD40CE99E905301E4 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9BF4FA1C5D91FC3293B06BC65CF7502 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312CCCF2941BEE5B027C3FD76F7DE69 /* EnumTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ECA89E8CE2623E9307D70B5C3C8CDE22 /* Pods-CustomMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D049E8692EEB951104CD9633952BC810 /* Pods-CustomMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE0D47871A243B93BDEEDB119A15684A /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E830A75CB61636FF676FC3183FAE9D /* DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F621A58AD6E98C118ADB081F247308E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */; };
-		F8E8A54004355BEDF60903CA298AA38E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C4D862FDE4FEEA0C81FDC8BCD922C3 /* Alamofire.framework */; };
-		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067358E5657E0CF6301943FD9B9E4BF9 /* Request.swift */; };
-		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8D7048745B54336F32BE0DDFCD9DB /* Stream.swift */; };
-		FF747B3BDF1D1DDF633B9FEBFA9C15ED /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030243C98D6C6F46D1A65C0E6B1555 /* UIColorEx.swift */; };
+		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59326EE77B4900FE7F9CB28B26FA5368 /* Response.swift */; };
+		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A19EB1FA7B8E89FFAC7DAE192BF82 /* Upload.swift */; };
+		0686B89336BC7948B8112632BE3BA8E6 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6031F799AEF2662ECC71FCE3E2ADD4 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		0995A73F3E53ADF4D92D471A30487ABA /* KCFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EC85407E4E47A43EB111578C5E41A /* KCFloatingActionButton-dummy.m */; };
+		0A64593128CBE9F8F681C468D81F9EE1 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E3411C355E746B745E059FFD986B8F /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7C4FCF247DEC45FF2DC596C59D26C0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20F3DD57B847D8F4184C399915C7F6 /* Map.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0F85524881D6DA94329304BA17B41E45 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317D099B1624CF27462AA69A1AAAF0B /* NVActivityIndicatorAnimationBlank.swift */; };
+		11F2BC52C5B615CDAEAFB7851AC38F94 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EAA014834B0226A4FE83FD7D94AC84 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		1317BB4073D01F6F798D8A71D02AA800 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87FE5CBC8E2DD6C5714FB8EDC357DE /* NVActivityIndicatorAnimationDelegate.swift */; };
+		13EDB09E7DEF6FFF1E38F91B668F718A /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE76A6D6494E15DBDABD37C389EC54A /* NVActivityIndicatorShape.swift */; };
+		144405A414830766CD06305169178402 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BDE00E4068CF95DD903883105CF92 /* CGRectEx.swift */; };
+		1517882EAEBCC7BD4E2232FD64E6E6F4 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85294186CD64B96818B296831200F7DA /* CustomDateFormatTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		195C882D7CF3B187A7ABD8D9A24ECDDC /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274B1F165D979C027C1909019D78E5D /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		1CD9428D34F76710C9565467CF1F2F73 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DEC1F00ECC78D0CCA0EE3803F258C /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		1D5FBE46901C325E761E59519EBCB310 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A33627E6F720290D0D8A74964BF1A4 /* ObjectMapper.framework */; };
+		1DD0C4D6F1DB0270DD7A98B6BD82559E /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683AC5BBCA160CA4E4D74B82217BFC71 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		20AA2C8D4249F1C44D21FD06E897B67C /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CAF4D23D789FAD599A0AEF4645C771 /* DateFormatterTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21545F160C46FD160CD617256FA82180 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D5F186F1AA9DAAFA0109B49456A8C /* NVActivityIndicatorAnimationBallScale.swift */; };
+		23732EAFED98958C717909CFD92CD37D /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650AF481D19774AE154860E1E8CD4D6 /* ToJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		293C7EFCC8E78C3D9B635CA4C9E5627A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E38FB9B52476C123573F79D95152A4FA /* Reachability.m */; };
+		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A82DE9C55AE13B20C3C244076704AC /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEC8F08930807E210F714F8B6734B31 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E3373ECDA5A2F02F85E714B15929BA /* Mappable.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3229A4B8643CC32C52B866C29AF7D3F4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A0D8D0CCBE0287D99A9F921A75048 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		34F1A41432F9FD7D314BC11F66BBA40C /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E3D777816E33F1B2078550A9EE377 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		36324E3AEC6182F2DB1942378E28608D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896664A37E2E18AF1D5B6AF13194F3BF /* QuartzCore.framework */; };
+		3A6502171B181276231C2E92BB25FF94 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B288F96249B0A6EFB095A6E0767B16F7 /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4244375967A72339B965317FB0B307AD /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF9853A47718EAF99C99336E3BFEE1 /* ArrayEx.swift */; };
+		48903DF2FF8D2378A210831BB05CD9F3 /* AlamofireObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AD7FC92814A9C1F7C4FCBC59319D99 /* AlamofireObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA503EA4DD889C277F0CBABD2EC0D /* ParameterEncoding.swift */; };
+		4E0909C9F5935CF17E4FAD678933A773 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA0568BC3F8D2D04D63DE63E0D51D5 /* Mapper.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		57C5DAE728BEE18E93C4567354BD1B04 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4471C74DE46BEED9A1482B4120C9EA /* Reachability-dummy.m */; };
+		5808D58D1830247ACB009488726E1B06 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A72A1775EDFFAC7903FABBE1DED5991F /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A24AFA8959F8458C68F7A4DB16EEB15 /* KCFloatingActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65661542B5662E34E2EE4938A8362DF7 /* KCFloatingActionButtonItem.swift */; };
+		5D1D90C6E57B0B3F74E6DB319D660F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		5FBBB3A122CEA1951C3104AEA6F5100C /* LiquidFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60E556EF912BF9CCBA2172B3D670F1 /* LiquidFloatingActionButton-dummy.m */; };
+		62FD8C39DA7D9DF1AB613C34299AB9AB /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252C5A12F693C1BC1EA40CA2FF0D5B3 /* NVActivityIndicatorAnimationPacman.swift */; };
+		6438C9150C2D0298D0FDF8C3C6566842 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E674C18DE6A9CF7A6330D070CD5DFC56 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		64EDED58F2EDDF62A8FF9D9DCEC08AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		67BC2C4F5C488A9B4F8ECD0DF6611F2F /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75590CC1300459713EAFD7CE773E04 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		6BC974AF6708E052C50DE397CADEED6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		6D16A92E2E6D1A402E0B162FA1DDB7B2 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 196AA006CBC2CDF347E7914521F73944 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF83D3AA2FC55EC3A34594816BAAB73 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D1AA4347C5FD23E97E345D29714A29 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		6E12B3A1156A1C9A2DDE41F0011EA412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		6F092C062F9052E042399723F30A51FD /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1544F437076BE1B1B093A0A02C7E8411 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		70BEF2DCF1FC89FCF98648FD6786A1AC /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FF8392C6E8A681B6D19E6F42BCFC0 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		72042359B6606B6363E495430D780479 /* LiquidFloatingActionButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDA92507D7467639ADCEBC20C9B31AB4 /* LiquidFloatingActionButton.bundle */; };
+		72079B7D694FB64AA4109CDFB0181EB4 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19AD1004084C9F515F32310A8D93EF /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		7C4A7782F2A3F28C5A5E5C751406E528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		7EDBA77726C5EA875090AE0BFF3B6B41 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD63FFC6FBC167FF9CFCB28D9C5EC5CA /* NVActivityIndicatorView-dummy.m */; };
+		7F4D112748EC34E41E3C773E84C2CF53 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4033FB7B6BA03D5FEF8BDABE3FCC2B0 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447C3FDDC1DCD2EFE7292E86B1A16B3 /* ServerTrustPolicy.swift */; };
+		8272CEFFDEB538F5A5F59393B0216B1C /* KCFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9252824CD416DC816BD45E9F14FFC9D /* KCFloatingActionButton.swift */; };
+		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56032F382CE6DDDE1CB6093664124BD /* Result.swift */; };
+		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384C2615C5A1D0747FEE38B0DD58263A /* MultipartFormData.swift */; };
+		84E3D8DE2C016D309B09DDB3593EC4A1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE5CADDF3F32AFCA7D50761725420F /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		8E78F95F2AF5001039013A993626261A /* KCFABWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF99EDD1D4707E0F2D6AD3795A6EC6 /* KCFABWindow.swift */; };
+		91FC37CED596C47BA4A1B1F595072457 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2C34206530183901111ACF3020315 /* TransformType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9580C61F741506C97B703379DB9B9D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DF64E5D42DF264F13243E00EF30B71 /* UIKit.framework */; };
+		967739472AF27D091CEC61A16F3D5490 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE9C229A00064C7320DE7F627B24CE /* TransformOf.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		9D0EE7B15E6199DA4C50FB7D88991814 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1B1EE69ABAE52360CE3BF64AA76DC /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		9F95DA5E02FB33ADF42241D2CCEE2369 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DF734C7256C283021E68AB4E8B5D0 /* AlamofireObjectMapper.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A23CC8FFB4C64CF33E7FE9CC365CEBF5 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE1471652A2A45AEF70179213EDC26 /* URLTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D48F6C73CC26F2B388C7A33B5AD7326 /* Manager.swift */; };
+		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EEB2E4006742146A0A57CE0ED4565F /* Download.swift */; };
+		AA4C2F68882DBBC02C6EF24AF45D2350 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA550F6A92D8FC961296E5077D2D7DDA /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		AE59C3FD0BEF00C2CCAB0E64C00EC6F2 /* LiquidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089750B3A141E929C97F7FFFC568F6B /* LiquidUtil.swift */; };
+		AF71B63F7B7FB9C09F4A1424BAFE1360 /* LiquidFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAAEF1DB8BFC8964DE3F862F303CAC /* LiquidFloatingActionButton.swift */; };
+		AF77141790962DE11CC474122881D41E /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFC390408E79BB03F13F73274BA861 /* FromJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFEF8C8E5AE685690EBAFDC424AEBBB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DF64E5D42DF264F13243E00EF30B71 /* UIKit.framework */; };
+		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40112219C8CE32BA43F15CD892B2DD41 /* Alamofire.swift */; };
+		B354CF862EE92710D7B0B1ECB475766A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		B3BDBC4EEC4F219579C4B24E7D4E6638 /* KCFABManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD14158ECDAD8B198B183F5F279206 /* KCFABManager.swift */; };
+		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D20304D119FC40E80153DBBD3A5FAC82 /* Alamofire-dummy.m */; };
+		B75369FF87B3F9D706695005D71600C2 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23D7D31CE1B6B48C3B546B7903E8C1 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		B75B9D17D39561D7A2F3E67C79FA9F27 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45957FFA6DCBBE8606F2BEB799630C57 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		BA98EBDB57D30CC7369E42012CB3FB34 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1A1104866636B19BC7C97B5484248 /* CGPointEx.swift */; };
+		BBCA1EEBD4D5812E7A6A79E93A1AAD92 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686F8D40E76B1AA2C498B068939C75E /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		BC25E5B3E461B68EA802BD657A72701A /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AE5FAC0269781BAC2A35DDA2C7D4D /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		BCD46D72F2A27D0DF398386FF30B8F26 /* LiquittableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9747E198FE3D0CFCE06FAAFEDB2731 /* LiquittableCircle.swift */; };
+		BE63624389C47DCBC004F028463F105A /* AlamofireObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C90123B5433090A5DEFA1BBBD80BF /* AlamofireObjectMapper-dummy.m */; };
+		C38A6E49240BCCAD3636DEB94FD49E23 /* KCFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3402CBD07E112854DE2B010EA4B1BA0F /* KCFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C41211CCDDFF7CBBBD282E65B8D284BF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554F44FDA2DF191B2DAF6909B2A985 /* Operators.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06AF51C908F87453218F7AFA6F8C88 /* Validation.swift */; };
+		CA1BDA58C633932A681CE63C165932E5 /* KCFABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23DDE4F4B83152442F056F617AEFC6 /* KCFABViewController.swift */; };
+		CA926AED9ECC8A669A85E5E4F3C96E5A /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B025A194D35AB5EC3CF3B506463747B /* ObjectMapper-dummy.m */; };
+		CC4F3479033014A3EFFF0C4712CFB523 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64F09437C51E5869E084834929FF97 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		CC78BD4F08AE3B0638B853554389D7CA /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE656412C34AC87CA6229905DD821D /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		CD635561809D218A952928FCA3BC1B78 /* LiquidFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDD488D0CE951876156809AACBFE3E2 /* LiquidFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A45C8A6CA3AF10051732462D30FEC0 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20417DDFE9A0F85833429EC72063F435 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257FB93FD9ADD6EFAD257A48EAC73E8 /* ResponseSerialization.swift */; };
+		D422AF7A063DAEDF62B72E5210FDE612 /* Pods-CustomMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D049E8692EEB951104CD9633952BC810 /* Pods-CustomMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215ECC6AA7A446B62F3C065D93A99FC /* Error.swift */; };
+		DB0D31FDF40C1AE86E988CAB5F7D6578 /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F4C7843D8E287155B87C8B1D62FC56 /* SimpleCircleLiquidEngine.swift */; };
+		DD2FA3B21ECD486EA416583741BB1631 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3F2BDA10DD6AD7C0970892A6787E9 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		DD9B6FC8D0FCE62942FEB6445864DE01 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF89E61612AFE06D5E4892C3270C869 /* ISO8601DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E46CE212301C57C0E623EAB7295DC201 /* Pods-CustomMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3258A84710E27A3665BBE70F70327E /* Pods-CustomMap-dummy.m */; };
+		E8F32F5477A63EF854CE481BA3BFE966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */; };
+		E9BF4FA1C5D91FC3293B06BC65CF7502 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E53A3E2A3F58C7A93D45AEF7C04603 /* EnumTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA0EC972B280E9EFDDE71403E549B8B0 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784735FD2A114680A7E3EBB6D7ECF6E2 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		EE0D47871A243B93BDEEDB119A15684A /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D74D3679C20B2D742B392ECDCD0C4 /* DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EE5D6304D6519F6B8791C10525530DB8 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE91D01C265C8EFCE6A11AA04824944 /* NVActivityIndicatorView.swift */; };
+		F7AB540D1254042F3C393D02AD2C5210 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9A1B9737348F5CC814EA3122C21DB7 /* SystemConfiguration.framework */; };
+		F8E8A54004355BEDF60903CA298AA38E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408FF76AABB108A600C7BA14CD725E6A /* Alamofire.framework */; };
+		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F582779745A1B3E65C6B5685D84C48A /* Request.swift */; };
+		FC513481E5E93CCD0D98FFE2339E5F3C /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147F3BE098BECC42C7B0A1AAB37BF53 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FB2410708AA91C07C9CDD599A1582 /* Stream.swift */; };
+		FF747B3BDF1D1DDF633B9FEBFA9C15ED /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A5120FAF257B3F9E7EFDCC546F74E /* UIColorEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10386DD623C68F5DD81E253E6D8066B2 /* PBXContainerItemProxy */ = {
+		056AFA0E0350E585F8A0BB137C02C001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5CBCAA97E951CC882334464FBDF983D;
-			remoteInfo = ObjectMapper;
+			remoteGlobalIDString = ECB4143196184B0E0EA02182DB2B9CCA;
+			remoteInfo = LiquidFloatingActionButton;
 		};
 		1F83DAEC0F1C40AE57F982E5AA58B279 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -101,12 +139,26 @@
 			remoteGlobalIDString = 2E4A37C88D68A62EA5C1BC7A2A4D19AE;
 			remoteInfo = "LiquidFloatingActionButton-LiquidFloatingActionButton";
 		};
-		345C17ACD9C53240ECBB8DAF897A4CD8 /* PBXContainerItemProxy */ = {
+		2574A485E246335C6073C954100BCE0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FBD082A0D35F7917EAB9DD9D3CCA9976;
 			remoteInfo = AlamofireObjectMapper;
+		};
+		42962A6F16BDC795AEC3D66112402C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD483F08A2AC430A4F47E66B4025664;
+			remoteInfo = KCFloatingActionButton;
+		};
+		47C305AC67E0667A20382AC5A9A4B777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626D49AD18621B0A3059EE726B27AE89;
+			remoteInfo = NVActivityIndicatorView;
 		};
 		86B26E9B5A3389FF782FC20E963488F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -115,159 +167,202 @@
 			remoteGlobalIDString = C5CBCAA97E951CC882334464FBDF983D;
 			remoteInfo = ObjectMapper;
 		};
-		88E577E222A4C7C75DBF25DCA68F3CE1 /* PBXContainerItemProxy */ = {
+		8E0DE00E3FEF8DF1EA4F2AC2451A3D73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7CD483F08A2AC430A4F47E66B4025664;
-			remoteInfo = KCFloatingActionButton;
+			remoteGlobalIDString = C5CBCAA97E951CC882334464FBDF983D;
+			remoteInfo = ObjectMapper;
 		};
-		9BBD1497F2FB092C65CD9E0020572143 /* PBXContainerItemProxy */ = {
+		A2C31EB4B02CFB1824910CAD89D87015 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ECB4143196184B0E0EA02182DB2B9CCA;
-			remoteInfo = LiquidFloatingActionButton;
+			remoteGlobalIDString = 3077801587B4329803B338585FF7345F;
+			remoteInfo = Reachability;
 		};
-		A413A2DBD6FDA170465130E9D977673E /* PBXContainerItemProxy */ = {
+		AC9D627F15B8B9A3D73460D277F1EB04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
 			remoteInfo = Alamofire;
 		};
-		CFD1E41FD49A702693099A9A00846910 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B24A7428904FF32A72E748EDBCCC14C2;
-			remoteInfo = Reachability;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010D0602F0F452F2694E6F44EC8469D6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		0191A09A0574EE72E70753051E514516 /* LiquidFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiquidFloatingActionButton.xcconfig; sourceTree = "<group>"; };
-		03E2D3C7207FA06C411CD1605F4D11BE /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
-		04A8D782426CEB49468166C0F4E41B32 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		04F16DB9AE7DB5C4481DEDDE85BF6EFA /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		067358E5657E0CF6301943FD9B9E4BF9 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		0691359873F986DE0C3FA1C230C0B028 /* KCFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButton.swift; path = KCFloatingActionButton/KCFloatingActionButton.swift; sourceTree = "<group>"; };
+		0147F3BE098BECC42C7B0A1AAB37BF53 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		03EEB2E4006742146A0A57CE0ED4565F /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
 		069547EE9BE30122C9E58EAB77F4A74B /* Pods-CustomMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CustomMap.modulemap"; sourceTree = "<group>"; };
-		06C4D862FDE4FEEA0C81FDC8BCD922C3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		075EDB453DB6C434FFA655382B4F0BF0 /* KCFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KCFloatingActionButton.modulemap; sourceTree = "<group>"; };
-		0A1FA941E610F15C6DF543C64C48B346 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = Pod/Classes/CGRectEx.swift; sourceTree = "<group>"; };
-		0C66E12BE10816D6EA209AC836EB905D /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD63F2EBBB3E1C2DE714D7BD250D133 /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleCircleLiquidEngine.swift; path = Pod/Classes/SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
-		119558FF90B7E9F9246EE8146DBC5500 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1248C201F4659F861D65E948CA765462 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		12DAA57D48D7039612AC6B3EC801A614 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		13D4C029551AFCA48BB0D277C03BF691 /* LiquidFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidFloatingActionButton.swift; path = Pod/Classes/LiquidFloatingActionButton.swift; sourceTree = "<group>"; };
-		14B95D75E059AF4164C306F8205702C4 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		159C3E909915B8C02994E3DDDC08AE07 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = ObjectMapper/Transforms/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
-		1A0A8E3E25E81864A7AB08343AEA0A86 /* LiquidFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LiquidFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		0D87FE5CBC8E2DD6C5714FB8EDC357DE /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		1010BC580E21EBBABA8154EBE5B6B3F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215ECC6AA7A446B62F3C065D93A99FC /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		13C148889231B4EEC2FBE57E29282575 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		1442FB7244234C921236ECEA0B17870F /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		1544F437076BE1B1B093A0A02C7E8411 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		16DF64E5D42DF264F13243E00EF30B71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		196AA006CBC2CDF347E7914521F73944 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		198BDE00E4068CF95DD903883105CF92 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = Pod/Classes/CGRectEx.swift; sourceTree = "<group>"; };
+		1AE23871E0A26713992BAB2449996D5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9A1B9737348F5CC814EA3122C21DB7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1C9747E198FE3D0CFCE06FAAFEDB2731 /* LiquittableCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquittableCircle.swift; path = Pod/Classes/LiquittableCircle.swift; sourceTree = "<group>"; };
 		1CBA44ED46DA0A1289857DA341C5E8A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		297C0F5291CB267E280AB6FA39B43C6B /* Pods_CustomMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E830A75CB61636FF676FC3183FAE9D /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = ObjectMapper/Transforms/DateTransform.swift; sourceTree = "<group>"; };
-		2DF73F652B6E1F2A55F5D388B04CFEEA /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireObjectMapper.swift; path = AlamofireObjectMapper/AlamofireObjectMapper.swift; sourceTree = "<group>"; };
-		2E03B26F36DCAD7C43F2373A8AF1A38D /* AlamofireObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireObjectMapper-umbrella.h"; sourceTree = "<group>"; };
-		2EC3FFFCCA736BFA2BF7541C55FF645F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		31030243C98D6C6F46D1A65C0E6B1555 /* UIColorEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorEx.swift; path = Pod/Classes/UIColorEx.swift; sourceTree = "<group>"; };
-		323251A38D23ADBEFCC468123F346F3F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		1EE1B1EE69ABAE52360CE3BF64AA76DC /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		20417DDFE9A0F85833429EC72063F435 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		24DFC390408E79BB03F13F73274BA861 /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = ObjectMapper/Core/FromJSON.swift; sourceTree = "<group>"; };
+		28D90722E220536419FC5D52050B347C /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B20F3DD57B847D8F4184C399915C7F6 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = ObjectMapper/Core/Map.swift; sourceTree = "<group>"; };
+		2B4471C74DE46BEED9A1482B4120C9EA /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		2BECB817A9C31B9C444C96923A331390 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCFA503EA4DD889C277F0CBABD2EC0D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		3089750B3A141E929C97F7FFFC568F6B /* LiquidUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidUtil.swift; path = Pod/Classes/LiquidUtil.swift; sourceTree = "<group>"; };
+		310D5F186F1AA9DAAFA0109B49456A8C /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		3402CBD07E112854DE2B010EA4B1BA0F /* KCFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
 		3582CD4DE7D55A7583AF6085324A58A3 /* Pods-CustomMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomMap-resources.sh"; sourceTree = "<group>"; };
-		38ED7DA6806C66337385491FB5128FD1 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = ObjectMapper/Core/ToJSON.swift; sourceTree = "<group>"; };
-		39BB162210C1278FD40CE99E905301E4 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
-		3A524D2310546E746A5E21EFED3BF3B7 /* KCFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
+		35DF99EDD1D4707E0F2D6AD3795A6EC6 /* KCFABWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABWindow.swift; path = KCFloatingActionButton/KCFABWindow.swift; sourceTree = "<group>"; };
+		3686F8D40E76B1AA2C498B068939C75E /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		384C2615C5A1D0747FEE38B0DD58263A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		38F98647508C90E390CC48B860D9BD25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADAAEF1DB8BFC8964DE3F862F303CAC /* LiquidFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidFloatingActionButton.swift; path = Pod/Classes/LiquidFloatingActionButton.swift; sourceTree = "<group>"; };
 		3B3258A84710E27A3665BBE70F70327E /* Pods-CustomMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomMap-dummy.m"; sourceTree = "<group>"; };
-		3B4592BEC3501F3D32D5553D3AFE426B /* AlamofireObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AlamofireObjectMapper.modulemap; sourceTree = "<group>"; };
-		3E26F893E89E57C6EC163AF40C8507D0 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = ObjectMapper/Transforms/DateFormatterTransform.swift; sourceTree = "<group>"; };
-		3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		41B8088C0694271BF50F8691C999F04A /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		41EFC8BDFB43EEA7751B7BED17A4C994 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47B7DE19FABDCD0F1A6A860EE4E0EFF4 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = ObjectMapper/Core/Map.swift; sourceTree = "<group>"; };
-		4EE290E1D365F57C28C8D6B5A6672E18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5561018E37FC2DC287B389C0E31149AC /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		566790FFA5A53060F687D0D021B0126F /* AlamofireObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireObjectMapper-dummy.m"; sourceTree = "<group>"; };
-		59872DDEDD93834D8B0D0921BE2EE28D /* LiquidFloatingActionButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidFloatingActionButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		40112219C8CE32BA43F15CD892B2DD41 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		408FF76AABB108A600C7BA14CD725E6A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FE9C229A00064C7320DE7F627B24CE /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = ObjectMapper/Transforms/TransformOf.swift; sourceTree = "<group>"; };
+		41CA0568BC3F8D2D04D63DE63E0D51D5 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = ObjectMapper/Core/Mapper.swift; sourceTree = "<group>"; };
+		45957FFA6DCBBE8606F2BEB799630C57 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		483FF8392C6E8A681B6D19E6F42BCFC0 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		49E3373ECDA5A2F02F85E714B15929BA /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = ObjectMapper/Core/Mappable.swift; sourceTree = "<group>"; };
+		4A1EC85407E4E47A43EB111578C5E41A /* KCFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
+		4D0FB2410708AA91C07C9CDD599A1582 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		5252C5A12F693C1BC1EA40CA2FF0D5B3 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		52FE656412C34AC87CA6229905DD821D /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		5447C3FDDC1DCD2EFE7292E86B1A16B3 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		54CAF4D23D789FAD599A0AEF4645C771 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = ObjectMapper/Transforms/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		59326EE77B4900FE7F9CB28B26FA5368 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		5B025A194D35AB5EC3CF3B506463747B /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		5C6031F799AEF2662ECC71FCE3E2ADD4 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		5D7182E0780D10F984CAAA0951849969 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E32DB2E36EA0A866692EF77DB3A7376 /* Pods-CustomMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomMap-frameworks.sh"; sourceTree = "<group>"; };
-		5FA534CD4783769FD39ACB28F5B03047 /* KCFABWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABWindow.swift; path = KCFloatingActionButton/KCFABWindow.swift; sourceTree = "<group>"; };
-		605F4AD4BD5E35599B36EBAA428F53A4 /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
-		607DEE51E26F4C66CC7A5D6701469758 /* AlamofireObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireObjectMapper.xcconfig; sourceTree = "<group>"; };
-		613AC4DE03FE35E53FA7A7AF21C5D152 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = ObjectMapper/Core/Operators.swift; sourceTree = "<group>"; };
-		6334509BFE7EA3F6D5E1DB83AC5FC0FD /* KCFloatingActionButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonItem.swift; path = KCFloatingActionButton/KCFloatingActionButtonItem.swift; sourceTree = "<group>"; };
-		697B93C0B053DEE78BE396748E06F9FE /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
-		6EA7E383F85733BC765A76DAAEA848A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		70AACE285D9443A6B514B6AA3B064D26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70FD0D91519C590D7115B9D4F15E71BD /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		718D1BCA7D5774D86C1FCE0DF73FA938 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73E8D7048745B54336F32BE0DDFCD9DB /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		7484E4D400541D121A88A69EAC87AF52 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Reachability.modulemap; sourceTree = "<group>"; };
-		786E1A76599956FE47D3940298E64BB0 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
-		78F74C686EF5D00AD9ABFF3F79929351 /* KCFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
-		7B4B69A8BF7E90E65CFD94A6B8D572D0 /* LiquidFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
-		81BDEEEBB4DD52E7312183EE0AAB68E9 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
-		822F83D5E54219EC1EE8B1CE8FF8D14F /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		8AD438B22A45AB0864F148D8E7524562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8ED0684B8BD4A5B37FFDF5DD43EAD555 /* LiquidUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidUtil.swift; path = Pod/Classes/LiquidUtil.swift; sourceTree = "<group>"; };
-		902ECEEAA9E872959AD118D1F88D2702 /* LiquidFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
-		940EA6BB945D380CD4AE22ED1808170C /* LiquittableCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquittableCircle.swift; path = Pod/Classes/LiquittableCircle.swift; sourceTree = "<group>"; };
-		94F8FF2F1B0076C2C12901EB432C2267 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		977D90E595060CB828D2F302A49406AB /* KCFABViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABViewController.swift; path = KCFloatingActionButton/KCFABViewController.swift; sourceTree = "<group>"; };
-		9B2FBF804A1B483023A1A5382898D5D1 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ED793EEB96ADDBC9991225580950774 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A039BAB4AC66C8E8217BB85F45B9F0EF /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5E80642D4B5FB4086F290AA07A00A7EE /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		633C90123B5433090A5DEFA1BBBD80BF /* AlamofireObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		65661542B5662E34E2EE4938A8362DF7 /* KCFloatingActionButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonItem.swift; path = KCFloatingActionButton/KCFloatingActionButtonItem.swift; sourceTree = "<group>"; };
+		681DCBADE18DA288EE7B2FEACB149F65 /* LiquidFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
+		683AC5BBCA160CA4E4D74B82217BFC71 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		6A03426B434601DEF2EC9B6F6F180AA2 /* LiquidFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LiquidFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		6F23D7D31CE1B6B48C3B546B7903E8C1 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		70AD7FC92814A9C1F7C4FCBC59319D99 /* AlamofireObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		7650AF481D19774AE154860E1E8CD4D6 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = ObjectMapper/Core/ToJSON.swift; sourceTree = "<group>"; };
+		76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		784735FD2A114680A7E3EBB6D7ECF6E2 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		78AD14158ECDAD8B198B183F5F279206 /* KCFABManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABManager.swift; path = KCFloatingActionButton/KCFABManager.swift; sourceTree = "<group>"; };
+		7A19AD1004084C9F515F32310A8D93EF /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		7AE4DF0B01E93CE9752D4CC57E39BB05 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		7B3E3D777816E33F1B2078550A9EE377 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		7D23DDE4F4B83152442F056F617AEFC6 /* KCFABViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABViewController.swift; path = KCFloatingActionButton/KCFABViewController.swift; sourceTree = "<group>"; };
+		7F582779745A1B3E65C6B5685D84C48A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		7FE91D01C265C8EFCE6A11AA04824944 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8485049FE523D9F16BBF3AD6FE25001E /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85294186CD64B96818B296831200F7DA /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = ObjectMapper/Transforms/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		896664A37E2E18AF1D5B6AF13194F3BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8A3A0D8D0CCBE0287D99A9F921A75048 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		8B7D74D3679C20B2D742B392ECDCD0C4 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = ObjectMapper/Transforms/DateTransform.swift; sourceTree = "<group>"; };
+		8D48F6C73CC26F2B388C7A33B5AD7326 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		8F7DF734C7256C283021E68AB4E8B5D0 /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireObjectMapper.swift; path = AlamofireObjectMapper/AlamofireObjectMapper.swift; sourceTree = "<group>"; };
+		900A5120FAF257B3F9E7EFDCC546F74E /* UIColorEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorEx.swift; path = Pod/Classes/UIColorEx.swift; sourceTree = "<group>"; };
+		92FFE0BA79847A9B510D7D20A1D70262 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Reachability.modulemap; sourceTree = "<group>"; };
+		93F1A1104866636B19BC7C97B5484248 /* CGPointEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointEx.swift; path = Pod/Classes/CGPointEx.swift; sourceTree = "<group>"; };
+		94FF9853A47718EAF99C99336E3BFEE1 /* ArrayEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayEx.swift; path = Pod/Classes/ArrayEx.swift; sourceTree = "<group>"; };
+		95A33627E6F720290D0D8A74964BF1A4 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971B6954746F61D5F92C9B5052BBA9E4 /* LiquidFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiquidFloatingActionButton.xcconfig; sourceTree = "<group>"; };
+		97C7571AF97C1D57ABE80343A6524219 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		9B554F44FDA2DF191B2DAF6909B2A985 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = ObjectMapper/Core/Operators.swift; sourceTree = "<group>"; };
+		9DF89E61612AFE06D5E4892C3270C869 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = ObjectMapper/Transforms/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		9FA2C34206530183901111ACF3020315 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = ObjectMapper/Transforms/TransformType.swift; sourceTree = "<group>"; };
+		A02AF9D97FD9714BBC0E0CB1FFACEBCF /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04264DA932070460933A9D5963471F8 /* Pods-CustomMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomMap-acknowledgements.plist"; sourceTree = "<group>"; };
 		A04B7B8A66F17AB83D8F1985416B6B98 /* Pods-CustomMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomMap.debug.xcconfig"; sourceTree = "<group>"; };
-		A052D77DA5E3ACD0AA114D0F011E3179 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = ObjectMapper/Core/Mappable.swift; sourceTree = "<group>"; };
-		A8CBBE285D465D6F9E8BCC94365FF0DD /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = ObjectMapper/Transforms/URLTransform.swift; sourceTree = "<group>"; };
-		AADA7CD00B1F64CA83190547D1E597C2 /* LiquidFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiquidFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
-		AAE68A4092BCB201D1B9DC8C00AB1FF3 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = ObjectMapper/Transforms/TransformOf.swift; sourceTree = "<group>"; };
-		B890ADAEEC6E103CBFEAE487F0D5234D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		B9FA355C57C6E3F7E63248A561070470 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = ObjectMapper/Transforms/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		A1A6C85BEFA3FBB8147BA04553D5A511 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		A4033FB7B6BA03D5FEF8BDABE3FCC2B0 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		A4A82DE9C55AE13B20C3C244076704AC /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A4E096B348B7A954D8741DBB2C4EC9F8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E53A3E2A3F58C7A93D45AEF7C04603 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = ObjectMapper/Transforms/EnumTransform.swift; sourceTree = "<group>"; };
+		A72A1775EDFFAC7903FABBE1DED5991F /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		AC64F09437C51E5869E084834929FF97 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		AEE820FBE2D3B24F93CACF896D25FAFD /* Pods_CustomMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0957793192AF78B716D50C8F82CD064 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		B288F96249B0A6EFB095A6E0767B16F7 /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		B8D1AA4347C5FD23E97E345D29714A29 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB6A7A52C29B1719A661ED28283DCBF9 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = ObjectMapper/Core/Mapper.swift; sourceTree = "<group>"; };
-		C36B1EDD54F3DD6B7B0B8DE619BE6B21 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		CFA726CC44CE1890B05DD6610B5FCB13 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BD63FFC6FBC167FF9CFCB28D9C5EC5CA /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		BDA92507D7467639ADCEBC20C9B31AB4 /* LiquidFloatingActionButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidFloatingActionButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1B51D7B3C262CD2743893DFCD00F9 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BE5CADDF3F32AFCA7D50761725420F /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		CA550F6A92D8FC961296E5077D2D7DDA /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		CAAA0E244B7AEE7CEE39F969DCE1BE98 /* AlamofireObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		CDD9099EEC5038593098C0EF95659C32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE86A5A57DDB594EDE5BF05EF6351C05 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		CEBE1471652A2A45AEF70179213EDC26 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = ObjectMapper/Transforms/URLTransform.swift; sourceTree = "<group>"; };
 		D049E8692EEB951104CD9633952BC810 /* Pods-CustomMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomMap-umbrella.h"; sourceTree = "<group>"; };
-		D12DF4C52EC6D2B67436C5A837812C69 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D057AA853602173598D29CB478E2A681 /* KCFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFloatingActionButton.xcconfig; sourceTree = "<group>"; };
 		D16D71DE54A37D618010B46591FAA540 /* Pods-CustomMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomMap-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D726F09C896C48979D56FC683ED22225 /* AlamofireObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireObjectMapper-prefix.pch"; sourceTree = "<group>"; };
-		D892A786CFFD89BA90FA9BBEAE8ED373 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20304D119FC40E80153DBBD3A5FAC82 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		D4BC34B37B370560B218B666C6241FD2 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		D6C614BF1FC469185966B921AF0E756E /* AlamofireObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AlamofireObjectMapper.modulemap; sourceTree = "<group>"; };
+		D6EAA014834B0226A4FE83FD7D94AC84 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		D8E3411C355E746B745E059FFD986B8F /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D905328BB7F7E52C2A41558AE07824C7 /* Pods-CustomMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomMap.release.xcconfig"; sourceTree = "<group>"; };
-		D9CDC777F85EDDE9C4EBFB665F3289FB /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = ObjectMapper/Core/FromJSON.swift; sourceTree = "<group>"; };
-		DCEE1E542184B1EF539D7E4A05213D59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E312CCCF2941BEE5B027C3FD76F7DE69 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = ObjectMapper/Transforms/EnumTransform.swift; sourceTree = "<group>"; };
-		E3D13ECAC366C3A3E88FB3C2F67FF64D /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4D4DF3DFCB5436F6CC2242E9F00150E /* ArrayEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayEx.swift; path = Pod/Classes/ArrayEx.swift; sourceTree = "<group>"; };
-		E4D839CEB1076479C6C41197E030B91E /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
-		E75C9E78C0F1C0DB20DAF5252C94C974 /* KCFABManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABManager.swift; path = KCFloatingActionButton/KCFABManager.swift; sourceTree = "<group>"; };
-		E9150CB4974CE2D485C39BFD00D5A1EE /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = ObjectMapper/Transforms/TransformType.swift; sourceTree = "<group>"; };
-		EA914CF8056DE9876921E0ACD22DCA7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC62F724EE023BE2F7704B209CBFFD16 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F08A55D4386C6CBD9F5005E49D28B0C4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		F1F7987D29EBF8E2E7C2BEFB61100545 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		F2DE09422CDA479AC582725B556ECE35 /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F84EBDBFAE33234D5FD9723887AD36BB /* CGPointEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointEx.swift; path = Pod/Classes/CGPointEx.swift; sourceTree = "<group>"; };
-		FC44C6E9553CF834322E4114284B947C /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
-		FEBC6714D8F130AADF691BA0C9CA426D /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
-		FF6A42158C7390E4B2162148BA31212A /* KCFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
-		FF96D98D57D1C0FC16AA23CD3AB3DB18 /* KCFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFloatingActionButton.xcconfig; sourceTree = "<group>"; };
+		D9252824CD416DC816BD45E9F14FFC9D /* KCFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButton.swift; path = KCFloatingActionButton/KCFloatingActionButton.swift; sourceTree = "<group>"; };
+		DA0AE5FAC0269781BAC2A35DDA2C7D4D /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		DB09072A539FB392B58948B39047E387 /* KCFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
+		DB5C2BB49D967B69C3B39EC9D2D51846 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		DF06AF51C908F87453218F7AFA6F8C88 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E0F4C7843D8E287155B87C8B1D62FC56 /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleCircleLiquidEngine.swift; path = Pod/Classes/SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
+		E1937E021072C268031A71442A06DE2A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		E274B1F165D979C027C1909019D78E5D /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		E38FB9B52476C123573F79D95152A4FA /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E46F437D37D49DB8F23C542AF0DC24BC /* AlamofireObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireObjectMapper.xcconfig; sourceTree = "<group>"; };
+		E674C18DE6A9CF7A6330D070CD5DFC56 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		EC60E556EF912BF9CCBA2172B3D670F1 /* LiquidFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiquidFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
+		ED583ABD0F131252C8FF86DD06E01484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC3F2BDA10DD6AD7C0970892A6787E9 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		F03A0F17B5A20211A5D290E1E749CFE2 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19B9C1B2475D0624E57198AFD5A037A /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
+		F257FB93FD9ADD6EFAD257A48EAC73E8 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		F2CEF2A374083D82E15D4472F988AD04 /* KCFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KCFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		F317D099B1624CF27462AA69A1AAAF0B /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		F56032F382CE6DDDE1CB6093664124BD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		F7504633A7AE4BC1208AC4B532EEA2E4 /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98A19EB1FA7B8E89FFAC7DAE192BF82 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		FAE76A6D6494E15DBDABD37C389EC54A /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		FB1DEC1F00ECC78D0CCA0EE3803F258C /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		FB75590CC1300459713EAFD7CE773E04 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		FCD07E002939344013438D91290AC1BB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		FEDD488D0CE951876156809AACBFE3E2 /* LiquidFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C695BF3402437CDFF170B86B302914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B354CF862EE92710D7B0B1ECB475766A /* Foundation.framework in Frameworks */,
+				36324E3AEC6182F2DB1942378E28608D /* QuartzCore.framework in Frameworks */,
+				AFEF8C8E5AE685690EBAFDC424AEBBB1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1094DB3D8E9E7402800DA6C2047D73EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1D90C6E57B0B3F74E6DB319D660F37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23EE5653C5344F25E6EAECA93959DFD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		317D750B2BB55382F330727C684E2CC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F621A58AD6E98C118ADB081F247308E0 /* Foundation.framework in Frameworks */,
-				60D0250151B70A04310BD6548EE5BF00 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,14 +372,6 @@
 			files = (
 				6E12B3A1156A1C9A2DDE41F0011EA412 /* Foundation.framework in Frameworks */,
 				9580C61F741506C97B703379DB9B9D5E /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A7666ACF832C6A9072CD26C0E606978 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9936E1A3C1D9E979E3DD506ECFF22BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +401,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9686CAF74BB6526620A57E5D7D2FE1BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F32F5477A63EF854CE481BA3BFE966 /* Foundation.framework in Frameworks */,
+				F7AB540D1254042F3C393D02AD2C5210 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,145 +421,153 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16B6A5C21A764F447544E3997C8244F3 /* Support Files */ = {
+		0567B5939AFC263F17B35DCAA6614F12 /* NVActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				EA914CF8056DE9876921E0ACD22DCA7E /* Info.plist */,
-				7484E4D400541D121A88A69EAC87AF52 /* Reachability.modulemap */,
-				FC44C6E9553CF834322E4114284B947C /* Reachability.xcconfig */,
-				786E1A76599956FE47D3940298E64BB0 /* Reachability-dummy.m */,
-				697B93C0B053DEE78BE396748E06F9FE /* Reachability-prefix.pch */,
-				39BB162210C1278FD40CE99E905301E4 /* Reachability-umbrella.h */,
+				1EE1B1EE69ABAE52360CE3BF64AA76DC /* NVActivityIndicatorAnimationBallBeat.swift */,
+				3686F8D40E76B1AA2C498B068939C75E /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				7A19AD1004084C9F515F32310A8D93EF /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				E274B1F165D979C027C1909019D78E5D /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				1544F437076BE1B1B093A0A02C7E8411 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				B8D1AA4347C5FD23E97E345D29714A29 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				DA0AE5FAC0269781BAC2A35DDA2C7D4D /* NVActivityIndicatorAnimationBallPulse.swift */,
+				FB1DEC1F00ECC78D0CCA0EE3803F258C /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				483FF8392C6E8A681B6D19E6F42BCFC0 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				FB75590CC1300459713EAFD7CE773E04 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				E674C18DE6A9CF7A6330D070CD5DFC56 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				310D5F186F1AA9DAAFA0109B49456A8C /* NVActivityIndicatorAnimationBallScale.swift */,
+				A4033FB7B6BA03D5FEF8BDABE3FCC2B0 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				784735FD2A114680A7E3EBB6D7ECF6E2 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				45957FFA6DCBBE8606F2BEB799630C57 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				20417DDFE9A0F85833429EC72063F435 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				CA550F6A92D8FC961296E5077D2D7DDA /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				C1BE5CADDF3F32AFCA7D50761725420F /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				5C6031F799AEF2662ECC71FCE3E2ADD4 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				F317D099B1624CF27462AA69A1AAAF0B /* NVActivityIndicatorAnimationBlank.swift */,
+				683AC5BBCA160CA4E4D74B82217BFC71 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				0D87FE5CBC8E2DD6C5714FB8EDC357DE /* NVActivityIndicatorAnimationDelegate.swift */,
+				6F23D7D31CE1B6B48C3B546B7903E8C1 /* NVActivityIndicatorAnimationLineScale.swift */,
+				52FE656412C34AC87CA6229905DD821D /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				0147F3BE098BECC42C7B0A1AAB37BF53 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				7B3E3D777816E33F1B2078550A9EE377 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				AC64F09437C51E5869E084834929FF97 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				5252C5A12F693C1BC1EA40CA2FF0D5B3 /* NVActivityIndicatorAnimationPacman.swift */,
+				8A3A0D8D0CCBE0287D99A9F921A75048 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				EDC3F2BDA10DD6AD7C0970892A6787E9 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				D6EAA014834B0226A4FE83FD7D94AC84 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				FAE76A6D6494E15DBDABD37C389EC54A /* NVActivityIndicatorShape.swift */,
+				7FE91D01C265C8EFCE6A11AA04824944 /* NVActivityIndicatorView.swift */,
+				2E7D6880A39A9DE7EE916683236855CE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Reachability";
+			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		21102EA0AD4F87D0306C586A06D35839 /* iOS */ = {
+		236DF21FDE6C1C2A00ECD68982CDCF2F /* ObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
-				3EDABC36D502753B4AE81B1845FD6378 /* Foundation.framework */,
-				6EA7E383F85733BC765A76DAAEA848A5 /* SystemConfiguration.framework */,
-				119558FF90B7E9F9246EE8146DBC5500 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		260470DF872E2936C1BD49AE42614366 /* ObjectMapper */ = {
-			isa = PBXGroup;
-			children = (
-				159C3E909915B8C02994E3DDDC08AE07 /* CustomDateFormatTransform.swift */,
-				3E26F893E89E57C6EC163AF40C8507D0 /* DateFormatterTransform.swift */,
-				29E830A75CB61636FF676FC3183FAE9D /* DateTransform.swift */,
-				E312CCCF2941BEE5B027C3FD76F7DE69 /* EnumTransform.swift */,
-				D9CDC777F85EDDE9C4EBFB665F3289FB /* FromJSON.swift */,
-				B9FA355C57C6E3F7E63248A561070470 /* ISO8601DateTransform.swift */,
-				47B7DE19FABDCD0F1A6A860EE4E0EFF4 /* Map.swift */,
-				A052D77DA5E3ACD0AA114D0F011E3179 /* Mappable.swift */,
-				BB6A7A52C29B1719A661ED28283DCBF9 /* Mapper.swift */,
-				613AC4DE03FE35E53FA7A7AF21C5D152 /* Operators.swift */,
-				38ED7DA6806C66337385491FB5128FD1 /* ToJSON.swift */,
-				AAE68A4092BCB201D1B9DC8C00AB1FF3 /* TransformOf.swift */,
-				E9150CB4974CE2D485C39BFD00D5A1EE /* TransformType.swift */,
-				A8CBBE285D465D6F9E8BCC94365FF0DD /* URLTransform.swift */,
-				87901500F5068DC18B5347EC09B44078 /* Support Files */,
+				85294186CD64B96818B296831200F7DA /* CustomDateFormatTransform.swift */,
+				54CAF4D23D789FAD599A0AEF4645C771 /* DateFormatterTransform.swift */,
+				8B7D74D3679C20B2D742B392ECDCD0C4 /* DateTransform.swift */,
+				A5E53A3E2A3F58C7A93D45AEF7C04603 /* EnumTransform.swift */,
+				24DFC390408E79BB03F13F73274BA861 /* FromJSON.swift */,
+				9DF89E61612AFE06D5E4892C3270C869 /* ISO8601DateTransform.swift */,
+				2B20F3DD57B847D8F4184C399915C7F6 /* Map.swift */,
+				49E3373ECDA5A2F02F85E714B15929BA /* Mappable.swift */,
+				41CA0568BC3F8D2D04D63DE63E0D51D5 /* Mapper.swift */,
+				9B554F44FDA2DF191B2DAF6909B2A985 /* Operators.swift */,
+				7650AF481D19774AE154860E1E8CD4D6 /* ToJSON.swift */,
+				40FE9C229A00064C7320DE7F627B24CE /* TransformOf.swift */,
+				9FA2C34206530183901111ACF3020315 /* TransformType.swift */,
+				CEBE1471652A2A45AEF70179213EDC26 /* URLTransform.swift */,
+				F76AB11A5FD1B43BE87A5C48BDD25702 /* Support Files */,
 			);
 			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
-		565DF02A077DCA257DF11E7BAC7D4EB9 /* Resources */ = {
+		2E7D6880A39A9DE7EE916683236855CE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B890ADAEEC6E103CBFEAE487F0D5234D /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		568F8CD39B4D89C503B8A0DB87EDF867 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B4592BEC3501F3D32D5553D3AFE426B /* AlamofireObjectMapper.modulemap */,
-				607DEE51E26F4C66CC7A5D6701469758 /* AlamofireObjectMapper.xcconfig */,
-				566790FFA5A53060F687D0D021B0126F /* AlamofireObjectMapper-dummy.m */,
-				D726F09C896C48979D56FC683ED22225 /* AlamofireObjectMapper-prefix.pch */,
-				2E03B26F36DCAD7C43F2373A8AF1A38D /* AlamofireObjectMapper-umbrella.h */,
-				8AD438B22A45AB0864F148D8E7524562 /* Info.plist */,
+				ED583ABD0F131252C8FF86DD06E01484 /* Info.plist */,
+				97C7571AF97C1D57ABE80343A6524219 /* NVActivityIndicatorView.modulemap */,
+				B0957793192AF78B716D50C8F82CD064 /* NVActivityIndicatorView.xcconfig */,
+				BD63FFC6FBC167FF9CFCB28D9C5EC5CA /* NVActivityIndicatorView-dummy.m */,
+				D4BC34B37B370560B218B666C6241FD2 /* NVActivityIndicatorView-prefix.pch */,
+				A72A1775EDFFAC7903FABBE1DED5991F /* NVActivityIndicatorView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AlamofireObjectMapper";
+			path = "../Target Support Files/NVActivityIndicatorView";
 			sourceTree = "<group>";
 		};
-		58853C66926F6087D47BFADE470A7E20 /* Support Files */ = {
+		4087540F6C00C555D4BDBBB2A9C06E0D /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				F1F7987D29EBF8E2E7C2BEFB61100545 /* Alamofire.modulemap */,
-				C36B1EDD54F3DD6B7B0B8DE619BE6B21 /* Alamofire.xcconfig */,
-				822F83D5E54219EC1EE8B1CE8FF8D14F /* Alamofire-dummy.m */,
-				EC62F724EE023BE2F7704B209CBFFD16 /* Alamofire-prefix.pch */,
-				2EC3FFFCCA736BFA2BF7541C55FF645F /* Alamofire-umbrella.h */,
-				70AACE285D9443A6B514B6AA3B064D26 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		5DE8755627F8A04047FA8AFA18A6D063 /* LiquidFloatingActionButton */ = {
-			isa = PBXGroup;
-			children = (
-				E4D4DF3DFCB5436F6CC2242E9F00150E /* ArrayEx.swift */,
-				F84EBDBFAE33234D5FD9723887AD36BB /* CGPointEx.swift */,
-				0A1FA941E610F15C6DF543C64C48B346 /* CGRectEx.swift */,
-				13D4C029551AFCA48BB0D277C03BF691 /* LiquidFloatingActionButton.swift */,
-				8ED0684B8BD4A5B37FFDF5DD43EAD555 /* LiquidUtil.swift */,
-				940EA6BB945D380CD4AE22ED1808170C /* LiquittableCircle.swift */,
-				0CD63F2EBBB3E1C2DE714D7BD250D133 /* SimpleCircleLiquidEngine.swift */,
-				31030243C98D6C6F46D1A65C0E6B1555 /* UIColorEx.swift */,
-				E9E12F2C7470D067E203CB772972DCDF /* Support Files */,
-			);
-			path = LiquidFloatingActionButton;
-			sourceTree = "<group>";
-		};
-		6BBD9A29805F7EBB06FC13C1C6983630 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				B1140B85E14CD30A1DAF936D4F5A4BFF /* Frameworks */,
-				565DF02A077DCA257DF11E7BAC7D4EB9 /* Resources */,
+				8EB461988CE5D29A41EE768A7DF24E81 /* Frameworks */,
+				DBE5C65D8A0F22A5E2B9AFC45BAB5E53 /* Resources */,
 			);
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		7A4E599CA04AD9ACA1AE1BB7AA1A5119 /* Frameworks */ = {
+		5F1F92A77E663F47595E1F09457B1D14 /* LiquidFloatingActionButton */ = {
 			isa = PBXGroup;
 			children = (
-				06C4D862FDE4FEEA0C81FDC8BCD922C3 /* Alamofire.framework */,
-				9ED793EEB96ADDBC9991225580950774 /* ObjectMapper.framework */,
-				21102EA0AD4F87D0306C586A06D35839 /* iOS */,
+				94FF9853A47718EAF99C99336E3BFEE1 /* ArrayEx.swift */,
+				93F1A1104866636B19BC7C97B5484248 /* CGPointEx.swift */,
+				198BDE00E4068CF95DD903883105CF92 /* CGRectEx.swift */,
+				3ADAAEF1DB8BFC8964DE3F862F303CAC /* LiquidFloatingActionButton.swift */,
+				3089750B3A141E929C97F7FFFC568F6B /* LiquidUtil.swift */,
+				1C9747E198FE3D0CFCE06FAAFEDB2731 /* LiquittableCircle.swift */,
+				E0F4C7843D8E287155B87C8B1D62FC56 /* SimpleCircleLiquidEngine.swift */,
+				900A5120FAF257B3F9E7EFDCC546F74E /* UIColorEx.swift */,
+				FA9959073540653ED1ACC085214A1521 /* Support Files */,
 			);
-			name = Frameworks;
+			path = LiquidFloatingActionButton;
+			sourceTree = "<group>";
+		};
+		6775728A6A1A1EB84FB745D5EB906014 /* KCFloatingActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				78AD14158ECDAD8B198B183F5F279206 /* KCFABManager.swift */,
+				7D23DDE4F4B83152442F056F617AEFC6 /* KCFABViewController.swift */,
+				35DF99EDD1D4707E0F2D6AD3795A6EC6 /* KCFABWindow.swift */,
+				D9252824CD416DC816BD45E9F14FFC9D /* KCFloatingActionButton.swift */,
+				65661542B5662E34E2EE4938A8362DF7 /* KCFloatingActionButtonItem.swift */,
+				FB3AE0049167FFC6C80AB1FF65AFE684 /* Support Files */,
+			);
+			path = KCFloatingActionButton;
+			sourceTree = "<group>";
+		};
+		6B4D13152829139B3E714983568B0006 /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				8F7DF734C7256C283021E68AB4E8B5D0 /* AlamofireObjectMapper.swift */,
+				CEF074561CC395794915F7582657B931 /* Support Files */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		76DA9A0800B9268E7CF1CDEA54AF416C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE23871E0A26713992BAB2449996D5D /* Info.plist */,
+				92FFE0BA79847A9B510D7D20A1D70262 /* Reachability.modulemap */,
+				DB5C2BB49D967B69C3B39EC9D2D51846 /* Reachability.xcconfig */,
+				2B4471C74DE46BEED9A1482B4120C9EA /* Reachability-dummy.m */,
+				A1A6C85BEFA3FBB8147BA04553D5A511 /* Reachability-prefix.pch */,
+				196AA006CBC2CDF347E7914521F73944 /* Reachability-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				7A4E599CA04AD9ACA1AE1BB7AA1A5119 /* Frameworks */,
-				9397A4FD8AB122D733D37760EBF6FCA0 /* Pods */,
-				B4B77F4885672AE1F245CF9D53C1B2C9 /* Products */,
+				B1E1D09C8DE6463809AB174100B00628 /* Frameworks */,
+				E6BEA0F0AD75F4D97EC91BB35D956D5A /* Pods */,
+				FA5EE1390D9A70CDA34316783643F4BA /* Products */,
 				8EB4A3D61801B156B01C673E62DF2EBB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		831B6B6FDC0D3A8BDBB81C39C7C388D8 /* KCFloatingActionButton */ = {
-			isa = PBXGroup;
-			children = (
-				E75C9E78C0F1C0DB20DAF5252C94C974 /* KCFABManager.swift */,
-				977D90E595060CB828D2F302A49406AB /* KCFABViewController.swift */,
-				5FA534CD4783769FD39ACB28F5B03047 /* KCFABWindow.swift */,
-				0691359873F986DE0C3FA1C230C0B028 /* KCFloatingActionButton.swift */,
-				6334509BFE7EA3F6D5E1DB83AC5FC0FD /* KCFloatingActionButtonItem.swift */,
-				FA3CAEC180E2D710A0B6D9C30D2BF183 /* Support Files */,
-			);
-			path = KCFloatingActionButton;
 			sourceTree = "<group>";
 		};
 		86729F8A99B17AF471F9795ED6B874BF /* Pods-CustomMap */ = {
@@ -484,18 +588,12 @@
 			path = "Target Support Files/Pods-CustomMap";
 			sourceTree = "<group>";
 		};
-		87901500F5068DC18B5347EC09B44078 /* Support Files */ = {
+		8EB461988CE5D29A41EE768A7DF24E81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCEE1E542184B1EF539D7E4A05213D59 /* Info.plist */,
-				81BDEEEBB4DD52E7312183EE0AAB68E9 /* ObjectMapper.modulemap */,
-				605F4AD4BD5E35599B36EBAA428F53A4 /* ObjectMapper.xcconfig */,
-				03E2D3C7207FA06C411CD1605F4D11BE /* ObjectMapper-dummy.m */,
-				E4D839CEB1076479C6C41197E030B91E /* ObjectMapper-prefix.pch */,
-				FEBC6714D8F130AADF691BA0C9CA426D /* ObjectMapper-umbrella.h */,
+				FCD07E002939344013438D91290AC1BB /* GoogleMaps.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ObjectMapper";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8EB4A3D61801B156B01C673E62DF2EBB /* Targets Support Files */ = {
@@ -506,107 +604,163 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9397A4FD8AB122D733D37760EBF6FCA0 /* Pods */ = {
+		9A7C9B5F9ED12615154E4B968A85E3FA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A5F0958C0826B4175ADA3E0110DFE3BF /* Alamofire */,
-				CCD37E930ABF2F4074514BD878406FC9 /* AlamofireObjectMapper */,
-				6BBD9A29805F7EBB06FC13C1C6983630 /* GoogleMaps */,
-				831B6B6FDC0D3A8BDBB81C39C7C388D8 /* KCFloatingActionButton */,
-				5DE8755627F8A04047FA8AFA18A6D063 /* LiquidFloatingActionButton */,
-				260470DF872E2936C1BD49AE42614366 /* ObjectMapper */,
-				F37EEC46C4CEAF797882097420E2CE71 /* Reachability */,
+				76FAF6C160472AC74D93A6F53A94D49B /* Foundation.framework */,
+				896664A37E2E18AF1D5B6AF13194F3BF /* QuartzCore.framework */,
+				1B9A1B9737348F5CC814EA3122C21DB7 /* SystemConfiguration.framework */,
+				16DF64E5D42DF264F13243E00EF30B71 /* UIKit.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		A5F0958C0826B4175ADA3E0110DFE3BF /* Alamofire */ = {
+		ABD00B778EDF1B5317F0F75705FF3822 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				F08A55D4386C6CBD9F5005E49D28B0C4 /* Alamofire.swift */,
-				04F16DB9AE7DB5C4481DEDDE85BF6EFA /* Download.swift */,
-				04A8D782426CEB49468166C0F4E41B32 /* Error.swift */,
-				70FD0D91519C590D7115B9D4F15E71BD /* Manager.swift */,
-				A039BAB4AC66C8E8217BB85F45B9F0EF /* MultipartFormData.swift */,
-				323251A38D23ADBEFCC468123F346F3F /* ParameterEncoding.swift */,
-				067358E5657E0CF6301943FD9B9E4BF9 /* Request.swift */,
-				010D0602F0F452F2694E6F44EC8469D6 /* Response.swift */,
-				D12DF4C52EC6D2B67436C5A837812C69 /* ResponseSerialization.swift */,
-				12DAA57D48D7039612AC6B3EC801A614 /* Result.swift */,
-				5561018E37FC2DC287B389C0E31149AC /* ServerTrustPolicy.swift */,
-				73E8D7048745B54336F32BE0DDFCD9DB /* Stream.swift */,
-				41B8088C0694271BF50F8691C999F04A /* Upload.swift */,
-				1248C201F4659F861D65E948CA765462 /* Validation.swift */,
-				58853C66926F6087D47BFADE470A7E20 /* Support Files */,
+				D8E3411C355E746B745E059FFD986B8F /* Reachability.h */,
+				E38FB9B52476C123573F79D95152A4FA /* Reachability.m */,
+				76DA9A0800B9268E7CF1CDEA54AF416C /* Support Files */,
 			);
-			path = Alamofire;
+			path = Reachability;
 			sourceTree = "<group>";
 		};
-		B1140B85E14CD30A1DAF936D4F5A4BFF /* Frameworks */ = {
+		B1E1D09C8DE6463809AB174100B00628 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94F8FF2F1B0076C2C12901EB432C2267 /* GoogleMaps.framework */,
+				408FF76AABB108A600C7BA14CD725E6A /* Alamofire.framework */,
+				95A33627E6F720290D0D8A74964BF1A4 /* ObjectMapper.framework */,
+				9A7C9B5F9ED12615154E4B968A85E3FA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B4B77F4885672AE1F245CF9D53C1B2C9 /* Products */ = {
+		CEF074561CC395794915F7582657B931 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				718D1BCA7D5774D86C1FCE0DF73FA938 /* Alamofire.framework */,
-				0C66E12BE10816D6EA209AC836EB905D /* AlamofireObjectMapper.framework */,
-				F2DE09422CDA479AC582725B556ECE35 /* KCFloatingActionButton.framework */,
-				59872DDEDD93834D8B0D0921BE2EE28D /* LiquidFloatingActionButton.bundle */,
-				E3D13ECAC366C3A3E88FB3C2F67FF64D /* LiquidFloatingActionButton.framework */,
-				9B2FBF804A1B483023A1A5382898D5D1 /* ObjectMapper.framework */,
-				297C0F5291CB267E280AB6FA39B43C6B /* Pods_CustomMap.framework */,
-				41EFC8BDFB43EEA7751B7BED17A4C994 /* Reachability.framework */,
+				D6C614BF1FC469185966B921AF0E756E /* AlamofireObjectMapper.modulemap */,
+				E46F437D37D49DB8F23C542AF0DC24BC /* AlamofireObjectMapper.xcconfig */,
+				633C90123B5433090A5DEFA1BBBD80BF /* AlamofireObjectMapper-dummy.m */,
+				CAAA0E244B7AEE7CEE39F969DCE1BE98 /* AlamofireObjectMapper-prefix.pch */,
+				70AD7FC92814A9C1F7C4FCBC59319D99 /* AlamofireObjectMapper-umbrella.h */,
+				38F98647508C90E390CC48B860D9BD25 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlamofireObjectMapper";
+			sourceTree = "<group>";
+		};
+		D462CE1328ED94ABC5F2858E4B27B7CC /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				40112219C8CE32BA43F15CD892B2DD41 /* Alamofire.swift */,
+				03EEB2E4006742146A0A57CE0ED4565F /* Download.swift */,
+				1215ECC6AA7A446B62F3C065D93A99FC /* Error.swift */,
+				8D48F6C73CC26F2B388C7A33B5AD7326 /* Manager.swift */,
+				384C2615C5A1D0747FEE38B0DD58263A /* MultipartFormData.swift */,
+				2DCFA503EA4DD889C277F0CBABD2EC0D /* ParameterEncoding.swift */,
+				7F582779745A1B3E65C6B5685D84C48A /* Request.swift */,
+				59326EE77B4900FE7F9CB28B26FA5368 /* Response.swift */,
+				F257FB93FD9ADD6EFAD257A48EAC73E8 /* ResponseSerialization.swift */,
+				F56032F382CE6DDDE1CB6093664124BD /* Result.swift */,
+				5447C3FDDC1DCD2EFE7292E86B1A16B3 /* ServerTrustPolicy.swift */,
+				4D0FB2410708AA91C07C9CDD599A1582 /* Stream.swift */,
+				F98A19EB1FA7B8E89FFAC7DAE192BF82 /* Upload.swift */,
+				DF06AF51C908F87453218F7AFA6F8C88 /* Validation.swift */,
+				E62D315249C4E16FB7481B79C7BA9055 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		DBE5C65D8A0F22A5E2B9AFC45BAB5E53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE86A5A57DDB594EDE5BF05EF6351C05 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E62D315249C4E16FB7481B79C7BA9055 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1937E021072C268031A71442A06DE2A /* Alamofire.modulemap */,
+				13C148889231B4EEC2FBE57E29282575 /* Alamofire.xcconfig */,
+				D20304D119FC40E80153DBBD3A5FAC82 /* Alamofire-dummy.m */,
+				7AE4DF0B01E93CE9752D4CC57E39BB05 /* Alamofire-prefix.pch */,
+				A4A82DE9C55AE13B20C3C244076704AC /* Alamofire-umbrella.h */,
+				5D7182E0780D10F984CAAA0951849969 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		E6BEA0F0AD75F4D97EC91BB35D956D5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D462CE1328ED94ABC5F2858E4B27B7CC /* Alamofire */,
+				6B4D13152829139B3E714983568B0006 /* AlamofireObjectMapper */,
+				4087540F6C00C555D4BDBBB2A9C06E0D /* GoogleMaps */,
+				6775728A6A1A1EB84FB745D5EB906014 /* KCFloatingActionButton */,
+				5F1F92A77E663F47595E1F09457B1D14 /* LiquidFloatingActionButton */,
+				0567B5939AFC263F17B35DCAA6614F12 /* NVActivityIndicatorView */,
+				236DF21FDE6C1C2A00ECD68982CDCF2F /* ObjectMapper */,
+				ABD00B778EDF1B5317F0F75705FF3822 /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F76AB11A5FD1B43BE87A5C48BDD25702 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1010BC580E21EBBABA8154EBE5B6B3F2 /* Info.plist */,
+				1442FB7244234C921236ECEA0B17870F /* ObjectMapper.modulemap */,
+				F19B9C1B2475D0624E57198AFD5A037A /* ObjectMapper.xcconfig */,
+				5B025A194D35AB5EC3CF3B506463747B /* ObjectMapper-dummy.m */,
+				5E80642D4B5FB4086F290AA07A00A7EE /* ObjectMapper-prefix.pch */,
+				B288F96249B0A6EFB095A6E0767B16F7 /* ObjectMapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjectMapper";
+			sourceTree = "<group>";
+		};
+		FA5EE1390D9A70CDA34316783643F4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E096B348B7A954D8741DBB2C4EC9F8 /* Alamofire.framework */,
+				BEA1B51D7B3C262CD2743893DFCD00F9 /* AlamofireObjectMapper.framework */,
+				28D90722E220536419FC5D52050B347C /* KCFloatingActionButton.framework */,
+				BDA92507D7467639ADCEBC20C9B31AB4 /* LiquidFloatingActionButton.bundle */,
+				F7504633A7AE4BC1208AC4B532EEA2E4 /* LiquidFloatingActionButton.framework */,
+				A02AF9D97FD9714BBC0E0CB1FFACEBCF /* NVActivityIndicatorView.framework */,
+				F03A0F17B5A20211A5D290E1E749CFE2 /* ObjectMapper.framework */,
+				AEE820FBE2D3B24F93CACF896D25FAFD /* Pods_CustomMap.framework */,
+				8485049FE523D9F16BBF3AD6FE25001E /* Reachability.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCD37E930ABF2F4074514BD878406FC9 /* AlamofireObjectMapper */ = {
+		FA9959073540653ED1ACC085214A1521 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DF73F652B6E1F2A55F5D388B04CFEEA /* AlamofireObjectMapper.swift */,
-				568F8CD39B4D89C503B8A0DB87EDF867 /* Support Files */,
-			);
-			path = AlamofireObjectMapper;
-			sourceTree = "<group>";
-		};
-		E9E12F2C7470D067E203CB772972DCDF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D892A786CFFD89BA90FA9BBEAE8ED373 /* Info.plist */,
-				1A0A8E3E25E81864A7AB08343AEA0A86 /* LiquidFloatingActionButton.modulemap */,
-				0191A09A0574EE72E70753051E514516 /* LiquidFloatingActionButton.xcconfig */,
-				AADA7CD00B1F64CA83190547D1E597C2 /* LiquidFloatingActionButton-dummy.m */,
-				902ECEEAA9E872959AD118D1F88D2702 /* LiquidFloatingActionButton-prefix.pch */,
-				7B4B69A8BF7E90E65CFD94A6B8D572D0 /* LiquidFloatingActionButton-umbrella.h */,
+				2BECB817A9C31B9C444C96923A331390 /* Info.plist */,
+				6A03426B434601DEF2EC9B6F6F180AA2 /* LiquidFloatingActionButton.modulemap */,
+				971B6954746F61D5F92C9B5052BBA9E4 /* LiquidFloatingActionButton.xcconfig */,
+				EC60E556EF912BF9CCBA2172B3D670F1 /* LiquidFloatingActionButton-dummy.m */,
+				681DCBADE18DA288EE7B2FEACB149F65 /* LiquidFloatingActionButton-prefix.pch */,
+				FEDD488D0CE951876156809AACBFE3E2 /* LiquidFloatingActionButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LiquidFloatingActionButton";
 			sourceTree = "<group>";
 		};
-		F37EEC46C4CEAF797882097420E2CE71 /* Reachability */ = {
+		FB3AE0049167FFC6C80AB1FF65AFE684 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFA726CC44CE1890B05DD6610B5FCB13 /* Reachability.h */,
-				14B95D75E059AF4164C306F8205702C4 /* Reachability.m */,
-				16B6A5C21A764F447544E3997C8244F3 /* Support Files */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		FA3CAEC180E2D710A0B6D9C30D2BF183 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4EE290E1D365F57C28C8D6B5A6672E18 /* Info.plist */,
-				075EDB453DB6C434FFA655382B4F0BF0 /* KCFloatingActionButton.modulemap */,
-				FF96D98D57D1C0FC16AA23CD3AB3DB18 /* KCFloatingActionButton.xcconfig */,
-				78F74C686EF5D00AD9ABFF3F79929351 /* KCFloatingActionButton-dummy.m */,
-				FF6A42158C7390E4B2162148BA31212A /* KCFloatingActionButton-prefix.pch */,
-				3A524D2310546E746A5E21EFED3BF3B7 /* KCFloatingActionButton-umbrella.h */,
+				CDD9099EEC5038593098C0EF95659C32 /* Info.plist */,
+				F2CEF2A374083D82E15D4472F988AD04 /* KCFloatingActionButton.modulemap */,
+				D057AA853602173598D29CB478E2A681 /* KCFloatingActionButton.xcconfig */,
+				4A1EC85407E4E47A43EB111578C5E41A /* KCFloatingActionButton-dummy.m */,
+				DB09072A539FB392B58948B39047E387 /* KCFloatingActionButton-prefix.pch */,
+				3402CBD07E112854DE2B010EA4B1BA0F /* KCFloatingActionButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KCFloatingActionButton";
@@ -639,15 +793,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F2B385228D80983277AE18F808AFF8E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDDBA8732328CE62515E968EA510538F /* Reachability-umbrella.h in Headers */,
-				10D8C2E9C467A7EC7C35BF2534145427 /* Reachability.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F7B61281F714E2A64A51E80A2C9C062 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -664,11 +809,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C401F9A7BEDEC21D70A7327916C619 /* Headers */ = {
+		9FC3AB2929BCDFA057C438E81756087C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA89E8CE2623E9307D70B5C3C8CDE22 /* Pods-CustomMap-umbrella.h in Headers */,
+				5808D58D1830247ACB009488726E1B06 /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44FB14E91B700CE1E05F2787CBDBBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D16A92E2E6D1A402E0B162FA1DDB7B2 /* Reachability-umbrella.h in Headers */,
+				0A64593128CBE9F8F681C468D81F9EE1 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA84719E43DABCD47A2F10464639D3B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D422AF7A063DAEDF62B72E5210FDE612 /* Pods-CustomMap-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,8 +851,49 @@
 			);
 			name = "LiquidFloatingActionButton-LiquidFloatingActionButton";
 			productName = "LiquidFloatingActionButton-LiquidFloatingActionButton";
-			productReference = 59872DDEDD93834D8B0D0921BE2EE28D /* LiquidFloatingActionButton.bundle */;
+			productReference = BDA92507D7467639ADCEBC20C9B31AB4 /* LiquidFloatingActionButton.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		3077801587B4329803B338585FF7345F /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8732A8CDE87DD3C27F4162E995CA919 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				8812D9FB725D2CD9F942DA22F77FC727 /* Sources */,
+				9686CAF74BB6526620A57E5D7D2FE1BC /* Frameworks */,
+				BB44FB14E91B700CE1E05F2787CBDBBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 8485049FE523D9F16BBF3AD6FE25001E /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E19F9B365F7A1C77B6F886EEA4B0B84 /* Pods-CustomMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F18C95368D94CC93F137C95662BACC /* Build configuration list for PBXNativeTarget "Pods-CustomMap" */;
+			buildPhases = (
+				6616A4C3F982C1DFF25D038ABC28D970 /* Sources */,
+				1094DB3D8E9E7402800DA6C2047D73EB /* Frameworks */,
+				DA84719E43DABCD47A2F10464639D3B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9280C9A515B179032D3E608ED99BBD9 /* PBXTargetDependency */,
+				7A0015BC8E92D88D801D22F0179A8A7F /* PBXTargetDependency */,
+				426E2A67537CDD73634A3E6D15A44D2A /* PBXTargetDependency */,
+				2562FDD74412695FE3B2DF031F28B810 /* PBXTargetDependency */,
+				6B84EF96860B73906856C96070D0EDF3 /* PBXTargetDependency */,
+				E065E8258F6A3FAA7FAE55D56334D8EC /* PBXTargetDependency */,
+				E1BF37E0AFDAC03734D4D3C19B777B94 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomMap";
+			productName = "Pods-CustomMap";
+			productReference = AEE820FBE2D3B24F93CACF896D25FAFD /* Pods_CustomMap.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		432ECC54282C84882B482CCB4CF227FC /* Alamofire */ = {
 			isa = PBXNativeTarget;
@@ -706,30 +909,24 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 718D1BCA7D5774D86C1FCE0DF73FA938 /* Alamofire.framework */;
+			productReference = A4E096B348B7A954D8741DBB2C4EC9F8 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5F6E248621BFD62A6D47466B5F0FAE42 /* Pods-CustomMap */ = {
+		626D49AD18621B0A3059EE726B27AE89 /* NVActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5242AE232B928419C237988199D7420A /* Build configuration list for PBXNativeTarget "Pods-CustomMap" */;
+			buildConfigurationList = F4F8A67C8FCC5B2A6025788DA6595442 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
 			buildPhases = (
-				1272F81326245F34CB38E9DFE9066958 /* Sources */,
-				4A7666ACF832C6A9072CD26C0E606978 /* Frameworks */,
-				79C401F9A7BEDEC21D70A7327916C619 /* Headers */,
+				45B8928705B1C80CD136C427F025726C /* Sources */,
+				0C695BF3402437CDFF170B86B302914B /* Frameworks */,
+				9FC3AB2929BCDFA057C438E81756087C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80BC91568C143A98F669608525A1E824 /* PBXTargetDependency */,
-				390C67548DCA96F3723536452CECD5BE /* PBXTargetDependency */,
-				4286604F67ECE1C16851D8F0A36C3827 /* PBXTargetDependency */,
-				E8A648D548F77EAFFEE102622AB9857C /* PBXTargetDependency */,
-				1E20A5AD0D8AB0BC9C19DFF243BE525F /* PBXTargetDependency */,
-				8B19E35149575806FF9029F5536297AA /* PBXTargetDependency */,
 			);
-			name = "Pods-CustomMap";
-			productName = "Pods-CustomMap";
-			productReference = 297C0F5291CB267E280AB6FA39B43C6B /* Pods_CustomMap.framework */;
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = A02AF9D97FD9714BBC0E0CB1FFACEBCF /* NVActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7CD483F08A2AC430A4F47E66B4025664 /* KCFloatingActionButton */ = {
@@ -746,24 +943,7 @@
 			);
 			name = KCFloatingActionButton;
 			productName = KCFloatingActionButton;
-			productReference = F2DE09422CDA479AC582725B556ECE35 /* KCFloatingActionButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B24A7428904FF32A72E748EDBCCC14C2 /* Reachability */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3EBFE2D2EDE76D75EBA06C925EE20D64 /* Build configuration list for PBXNativeTarget "Reachability" */;
-			buildPhases = (
-				990F6B90BB06145D24B35311C5D26C4C /* Sources */,
-				317D750B2BB55382F330727C684E2CC9 /* Frameworks */,
-				4F2B385228D80983277AE18F808AFF8E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Reachability;
-			productName = Reachability;
-			productReference = 41EFC8BDFB43EEA7751B7BED17A4C994 /* Reachability.framework */;
+			productReference = 28D90722E220536419FC5D52050B347C /* KCFloatingActionButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C5CBCAA97E951CC882334464FBDF983D /* ObjectMapper */ = {
@@ -780,7 +960,7 @@
 			);
 			name = ObjectMapper;
 			productName = ObjectMapper;
-			productReference = 9B2FBF804A1B483023A1A5382898D5D1 /* ObjectMapper.framework */;
+			productReference = F03A0F17B5A20211A5D290E1E749CFE2 /* ObjectMapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ECB4143196184B0E0EA02182DB2B9CCA /* LiquidFloatingActionButton */ = {
@@ -799,7 +979,7 @@
 			);
 			name = LiquidFloatingActionButton;
 			productName = LiquidFloatingActionButton;
-			productReference = E3D13ECAC366C3A3E88FB3C2F67FF64D /* LiquidFloatingActionButton.framework */;
+			productReference = F7504633A7AE4BC1208AC4B532EEA2E4 /* LiquidFloatingActionButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FBD082A0D35F7917EAB9DD9D3CCA9976 /* AlamofireObjectMapper */ = {
@@ -818,7 +998,7 @@
 			);
 			name = AlamofireObjectMapper;
 			productName = AlamofireObjectMapper;
-			productReference = 0C66E12BE10816D6EA209AC836EB905D /* AlamofireObjectMapper.framework */;
+			productReference = BEA1B51D7B3C262CD2743893DFCD00F9 /* AlamofireObjectMapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -838,7 +1018,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B4B77F4885672AE1F245CF9D53C1B2C9 /* Products */;
+			productRefGroup = FA5EE1390D9A70CDA34316783643F4BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -847,9 +1027,10 @@
 				7CD483F08A2AC430A4F47E66B4025664 /* KCFloatingActionButton */,
 				ECB4143196184B0E0EA02182DB2B9CCA /* LiquidFloatingActionButton */,
 				2E4A37C88D68A62EA5C1BC7A2A4D19AE /* LiquidFloatingActionButton-LiquidFloatingActionButton */,
+				626D49AD18621B0A3059EE726B27AE89 /* NVActivityIndicatorView */,
 				C5CBCAA97E951CC882334464FBDF983D /* ObjectMapper */,
-				5F6E248621BFD62A6D47466B5F0FAE42 /* Pods-CustomMap */,
-				B24A7428904FF32A72E748EDBCCC14C2 /* Reachability */,
+				3E19F9B365F7A1C77B6F886EEA4B0B84 /* Pods-CustomMap */,
+				3077801587B4329803B338585FF7345F /* Reachability */,
 			);
 		};
 /* End PBXProject section */
@@ -873,14 +1054,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1272F81326245F34CB38E9DFE9066958 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7734E7B4F9D9C39AAEDC6ED8AD0316E4 /* Pods-CustomMap-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2A0948CDC1D0D4309C0B7AFB3AB85A1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -890,10 +1063,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45B8928705B1C80CD136C427F025726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0EE7B15E6199DA4C50FB7D88991814 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				BBCA1EEBD4D5812E7A6A79E93A1AAD92 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				72079B7D694FB64AA4109CDFB0181EB4 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				195C882D7CF3B187A7ABD8D9A24ECDDC /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				6F092C062F9052E042399723F30A51FD /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				6DF83D3AA2FC55EC3A34594816BAAB73 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				BC25E5B3E461B68EA802BD657A72701A /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				1CD9428D34F76710C9565467CF1F2F73 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				70BEF2DCF1FC89FCF98648FD6786A1AC /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				67BC2C4F5C488A9B4F8ECD0DF6611F2F /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				6438C9150C2D0298D0FDF8C3C6566842 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				21545F160C46FD160CD617256FA82180 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				7F4D112748EC34E41E3C773E84C2CF53 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				EA0EC972B280E9EFDDE71403E549B8B0 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				B75B9D17D39561D7A2F3E67C79FA9F27 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				D0A45C8A6CA3AF10051732462D30FEC0 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				AA4C2F68882DBBC02C6EF24AF45D2350 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				84E3D8DE2C016D309B09DDB3593EC4A1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				0686B89336BC7948B8112632BE3BA8E6 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				0F85524881D6DA94329304BA17B41E45 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				1DD0C4D6F1DB0270DD7A98B6BD82559E /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				1317BB4073D01F6F798D8A71D02AA800 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				B75369FF87B3F9D706695005D71600C2 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				CC78BD4F08AE3B0638B853554389D7CA /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				FC513481E5E93CCD0D98FFE2339E5F3C /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				34F1A41432F9FD7D314BC11F66BBA40C /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				CC4F3479033014A3EFFF0C4712CFB523 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				62FD8C39DA7D9DF1AB613C34299AB9AB /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				3229A4B8643CC32C52B866C29AF7D3F4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				DD2FA3B21ECD486EA416583741BB1631 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				11F2BC52C5B615CDAEAFB7851AC38F94 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				13EDB09E7DEF6FFF1E38F91B668F718A /* NVActivityIndicatorShape.swift in Sources */,
+				7EDBA77726C5EA875090AE0BFF3B6B41 /* NVActivityIndicatorView-dummy.m in Sources */,
+				EE5D6304D6519F6B8791C10525530DB8 /* NVActivityIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64C51C33B8DFC1470D2FE029A6D45D18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6616A4C3F982C1DFF25D038ABC28D970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46CE212301C57C0E623EAB7295DC201 /* Pods-CustomMap-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,12 +1141,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		990F6B90BB06145D24B35311C5D26C4C /* Sources */ = {
+		8812D9FB725D2CD9F942DA22F77FC727 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA3B748A5AE42A5D21020255313D9CB /* Reachability-dummy.m in Sources */,
-				3A46196AF1F5C6F70BC8007639A127CD /* Reachability.m in Sources */,
+				57C5DAE728BEE18E93C4567354BD1B04 /* Reachability-dummy.m in Sources */,
+				293C7EFCC8E78C3D9B635CA4C9E5627A /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -982,29 +1204,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E20A5AD0D8AB0BC9C19DFF243BE525F /* PBXTargetDependency */ = {
+		2562FDD74412695FE3B2DF031F28B810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ObjectMapper;
-			target = C5CBCAA97E951CC882334464FBDF983D /* ObjectMapper */;
-			targetProxy = 10386DD623C68F5DD81E253E6D8066B2 /* PBXContainerItemProxy */;
+			name = LiquidFloatingActionButton;
+			target = ECB4143196184B0E0EA02182DB2B9CCA /* LiquidFloatingActionButton */;
+			targetProxy = 056AFA0E0350E585F8A0BB137C02C001 /* PBXContainerItemProxy */;
 		};
-		390C67548DCA96F3723536452CECD5BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlamofireObjectMapper;
-			target = FBD082A0D35F7917EAB9DD9D3CCA9976 /* AlamofireObjectMapper */;
-			targetProxy = 345C17ACD9C53240ECBB8DAF897A4CD8 /* PBXContainerItemProxy */;
-		};
-		4286604F67ECE1C16851D8F0A36C3827 /* PBXTargetDependency */ = {
+		426E2A67537CDD73634A3E6D15A44D2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KCFloatingActionButton;
 			target = 7CD483F08A2AC430A4F47E66B4025664 /* KCFloatingActionButton */;
-			targetProxy = 88E577E222A4C7C75DBF25DCA68F3CE1 /* PBXContainerItemProxy */;
+			targetProxy = 42962A6F16BDC795AEC3D66112402C5B /* PBXContainerItemProxy */;
 		};
-		80BC91568C143A98F669608525A1E824 /* PBXTargetDependency */ = {
+		6B84EF96860B73906856C96070D0EDF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
-			targetProxy = A413A2DBD6FDA170465130E9D977673E /* PBXContainerItemProxy */;
+			name = NVActivityIndicatorView;
+			target = 626D49AD18621B0A3059EE726B27AE89 /* NVActivityIndicatorView */;
+			targetProxy = 47C305AC67E0667A20382AC5A9A4B777 /* PBXContainerItemProxy */;
+		};
+		7A0015BC8E92D88D801D22F0179A8A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireObjectMapper;
+			target = FBD082A0D35F7917EAB9DD9D3CCA9976 /* AlamofireObjectMapper */;
+			targetProxy = 2574A485E246335C6073C954100BCE0D /* PBXContainerItemProxy */;
 		};
 		8293523308A252CD88AE795DA5CE0217 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1018,17 +1240,23 @@
 			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
 			targetProxy = 1F83DAEC0F1C40AE57F982E5AA58B279 /* PBXContainerItemProxy */;
 		};
-		8B19E35149575806FF9029F5536297AA /* PBXTargetDependency */ = {
+		E065E8258F6A3FAA7FAE55D56334D8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = C5CBCAA97E951CC882334464FBDF983D /* ObjectMapper */;
+			targetProxy = 8E0DE00E3FEF8DF1EA4F2AC2451A3D73 /* PBXContainerItemProxy */;
+		};
+		E1BF37E0AFDAC03734D4D3C19B777B94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Reachability;
-			target = B24A7428904FF32A72E748EDBCCC14C2 /* Reachability */;
-			targetProxy = CFD1E41FD49A702693099A9A00846910 /* PBXContainerItemProxy */;
+			target = 3077801587B4329803B338585FF7345F /* Reachability */;
+			targetProxy = A2C31EB4B02CFB1824910CAD89D87015 /* PBXContainerItemProxy */;
 		};
-		E8A648D548F77EAFFEE102622AB9857C /* PBXTargetDependency */ = {
+		E9280C9A515B179032D3E608ED99BBD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LiquidFloatingActionButton;
-			target = ECB4143196184B0E0EA02182DB2B9CCA /* LiquidFloatingActionButton */;
-			targetProxy = 9BBD1497F2FB092C65CD9E0020572143 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = AC9D627F15B8B9A3D73460D277F1EB04 /* PBXContainerItemProxy */;
 		};
 		FAE7CB5B7883807D0DC3EFE58E8F5318 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1041,7 +1269,7 @@
 /* Begin XCBuildConfiguration section */
 		05033156BE5A7AFBD4F5E27D02DD1C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF96D98D57D1C0FC16AA23CD3AB3DB18 /* KCFloatingActionButton.xcconfig */;
+			baseConfigurationReference = D057AA853602173598D29CB478E2A681 /* KCFloatingActionButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1069,7 +1297,7 @@
 		};
 		12472490952FBDEDB6B9F746B9B1F0F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF96D98D57D1C0FC16AA23CD3AB3DB18 /* KCFloatingActionButton.xcconfig */;
+			baseConfigurationReference = D057AA853602173598D29CB478E2A681 /* KCFloatingActionButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1096,7 +1324,7 @@
 		};
 		27B0FBFE8C9EFA26FD327675D36A754B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0191A09A0574EE72E70753051E514516 /* LiquidFloatingActionButton.xcconfig */;
+			baseConfigurationReference = 971B6954746F61D5F92C9B5052BBA9E4 /* LiquidFloatingActionButton.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = LiquidFloatingActionButton;
@@ -1106,9 +1334,9 @@
 			};
 			name = Debug;
 		};
-		370BF2715FF3BC0F713E84228A3DC668 /* Release */ = {
+		5265FE94ADBB4CF26AE009528CE5C160 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC44C6E9553CF834322E4114284B947C /* Reachability.xcconfig */;
+			baseConfigurationReference = B0957793192AF78B716D50C8F82CD064 /* NVActivityIndicatorView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1117,56 +1345,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Reachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		55C9FE02C0B280C8E993B24853250945 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0191A09A0574EE72E70753051E514516 /* LiquidFloatingActionButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LiquidFloatingActionButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5DBB39090217ABAF35AB277D74593A2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A04B7B8A66F17AB83D8F1985416B6B98 /* Pods-CustomMap.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CustomMap/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CustomMap/Pods-CustomMap.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CustomMap;
+				PRODUCT_NAME = NVActivityIndicatorView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1176,89 +1362,7 @@
 			};
 			name = Debug;
 		};
-		612F1D62BD9837B843ADB76641468782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 605F4AD4BD5E35599B36EBAA428F53A4 /* ObjectMapper.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ObjectMapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		628ACA7853818F4C67EE0494141A100F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 605F4AD4BD5E35599B36EBAA428F53A4 /* ObjectMapper.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ObjectMapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		753EDC925E0D86C5E8FF5BD86E99871F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC44C6E9553CF834322E4114284B947C /* Reachability.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Reachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7D71646209654D1B952F431A0AC094F9 /* Release */ = {
+		536A3E7921739EB5F2A283E25B62FC0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D905328BB7F7E52C2A41558AE07824C7 /* Pods-CustomMap.release.xcconfig */;
 			buildSettings = {
@@ -1288,9 +1392,76 @@
 			};
 			name = Release;
 		};
+		55C9FE02C0B280C8E993B24853250945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971B6954746F61D5F92C9B5052BBA9E4 /* LiquidFloatingActionButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LiquidFloatingActionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		612F1D62BD9837B843ADB76641468782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19B9C1B2475D0624E57198AFD5A037A /* ObjectMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		628ACA7853818F4C67EE0494141A100F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19B9C1B2475D0624E57198AFD5A037A /* ObjectMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8A6D9F74755234944590AF46AFAA99A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607DEE51E26F4C66CC7A5D6701469758 /* AlamofireObjectMapper.xcconfig */;
+			baseConfigurationReference = E46F437D37D49DB8F23C542AF0DC24BC /* AlamofireObjectMapper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1317,7 +1488,7 @@
 		};
 		A3427C918F24207B5FD3A44958345D7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36B1EDD54F3DD6B7B0B8DE619BE6B21 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 13C148889231B4EEC2FBE57E29282575 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1341,6 +1512,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A6A21D871DC72B8B692D2296B2AD3FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04B7B8A66F17AB83D8F1985416B6B98 /* Pods-CustomMap.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomMap/Pods-CustomMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CustomMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1381,9 +1583,36 @@
 			};
 			name = Debug;
 		};
+		A9AC3561491A8E755846E86A3AF800D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5C2BB49D967B69C3B39EC9D2D51846 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B024269E56ED0804CFC61AA433315D87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607DEE51E26F4C66CC7A5D6701469758 /* AlamofireObjectMapper.xcconfig */;
+			baseConfigurationReference = E46F437D37D49DB8F23C542AF0DC24BC /* AlamofireObjectMapper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1409,9 +1638,63 @@
 			};
 			name = Debug;
 		};
+		B0CDB683F830375E8FE628F4ADE798E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0957793192AF78B716D50C8F82CD064 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C63BA3C9474C1E0C11503A0E7DEEF486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5C2BB49D967B69C3B39EC9D2D51846 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C72244A697C30ED6E7A685526AA0E37D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0191A09A0574EE72E70753051E514516 /* LiquidFloatingActionButton.xcconfig */;
+			baseConfigurationReference = 971B6954746F61D5F92C9B5052BBA9E4 /* LiquidFloatingActionButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1439,7 +1722,7 @@
 		};
 		C993D8405F342C8E23BAD4EDF32D79E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36B1EDD54F3DD6B7B0B8DE619BE6B21 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 13C148889231B4EEC2FBE57E29282575 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1467,7 +1750,7 @@
 		};
 		F9B46FB959A6C576CAA4D9298972A017 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0191A09A0574EE72E70753051E514516 /* LiquidFloatingActionButton.xcconfig */;
+			baseConfigurationReference = 971B6954746F61D5F92C9B5052BBA9E4 /* LiquidFloatingActionButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1556,15 +1839,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EBFE2D2EDE76D75EBA06C925EE20D64 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				753EDC925E0D86C5E8FF5BD86E99871F /* Debug */,
-				370BF2715FF3BC0F713E84228A3DC668 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		447007C87923A706A1BA5847B50FE168 /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1574,11 +1848,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5242AE232B928419C237988199D7420A /* Build configuration list for PBXNativeTarget "Pods-CustomMap" */ = {
+		66F18C95368D94CC93F137C95662BACC /* Build configuration list for PBXNativeTarget "Pods-CustomMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DBB39090217ABAF35AB277D74593A2F /* Debug */,
-				7D71646209654D1B952F431A0AC094F9 /* Release */,
+				A6A21D871DC72B8B692D2296B2AD3FD6 /* Debug */,
+				536A3E7921739EB5F2A283E25B62FC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1606,6 +1880,24 @@
 			buildConfigurations = (
 				05033156BE5A7AFBD4F5E27D02DD1C6C /* Debug */,
 				12472490952FBDEDB6B9F746B9B1F0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8732A8CDE87DD3C27F4162E995CA919 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BA3C9474C1E0C11503A0E7DEEF486 /* Debug */,
+				A9AC3561491A8E755846E86A3AF800D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F8A67C8FCC5B2A6025788DA6595442 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5265FE94ADBB4CF26AE009528CE5C160 /* Debug */,
+				B0CDB683F830375E8FE628F4ADE798E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
