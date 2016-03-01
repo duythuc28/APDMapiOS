@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EB058D6DC46F41B5C712BAAE'
-               BlueprintName = 'KCFloatingActionButton'
+               BlueprintIdentifier = 'C6EA4A412F658C6D2E38FCF8'
+               BlueprintName = 'IQKeyboardManagerSwift'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'KCFloatingActionButton.framework'>
+               BuildableName = 'IQKeyboardManagerSwift.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

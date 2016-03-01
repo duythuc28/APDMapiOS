@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>KCFloatingActionButton.xcscheme</key>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,17 +52,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0B54F5290006F1238E8A5F0BDD2FDC9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22D9ACC19EEBAAFDBB5FFA1995305B62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2E4A37C88D68A62EA5C1BC7A2A4D19AE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3077801587B4329803B338585FF7345F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3E19F9B365F7A1C77B6F886EEA4B0B84</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7CD483F08A2AC430A4F47E66B4025664</key>
+		<key>C5CBCAA97E951CC882334464FBDF983D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5CBCAA97E951CC882334464FBDF983D</key>
+		<key>E9B5C577F89B2F2EBCB51E034A136673</key>
 		<dict>
 			<key>primary</key>
 			<true/>

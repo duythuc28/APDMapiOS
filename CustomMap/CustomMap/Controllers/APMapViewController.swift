@@ -7,21 +7,25 @@
 //
 
 import UIKit
-import KCFloatingActionButton
 import NVActivityIndicatorView
+import LiquidFloatingActionButton
 
-class APMapViewController: UIViewController ,CLLocationManagerDelegate , GMSMapViewDelegate {
+
+class APMapViewController: UIViewController ,CLLocationManagerDelegate , GMSMapViewDelegate, LiquidFloatingActionButtonDataSource, LiquidFloatingActionButtonDelegate {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     @IBOutlet weak var mapView: GMSMapView!
     
+    var cells: [LiquidFloatingCell] = []
+    var floatingActionButton: LiquidFloatingActionButton!
+    
     
     let locationManager = CLLocationManager()
     
-    //MARK: View life cycle 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.hidesBarsOnSwipe = true
         // Create reveal menu
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
@@ -30,21 +34,29 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate , GMSMapV
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         
-        let activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: self.view.center.x - 15, y: self.view.center.y - 15, width: 30, height: 30))
-        activityIndicatorView.color = UIColor.orangeColor()
-        activityIndicatorView.type = NVActivityIndicatorType.CubeTransition
-        activityIndicatorView.startAnimation()
-        self.view.addSubview(activityIndicatorView)
+//        let activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: self.view.center.x - 15, y: self.view.center.y - 15, width: 30, height: 30))
+//        activityIndicatorView.color = UIColor.orangeColor()
+//        activityIndicatorView.type = NVActivityIndicatorType.CubeTransition
+//        activityIndicatorView.startAnimation()
+//        self.view.addSubview(activityIndicatorView)
         
         RESTRequest(subPath: "get", functionName: String.kDefineWebServiceAPIGetLocationURL , requestMethod: RESTRequestMethod.GET).invokeRequest { (result, error) -> Void in
             
         }
+        let cellFactory: (String) -> LiquidFloatingCell = { (iconName) in
+            return LiquidFloatingCell(icon: UIImage(named: iconName)!)
+        }
+        cells.append(cellFactory("Add"))
+        cells.append(cellFactory("Info"))
+        cells.append(cellFactory("Reload"))
+        self.setUpView()
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        self.setUpView()
+        floatingActionButton.frame = CGRect(x: 10, y: self.mapView.frame.size.height - 26, width:52, height: 52)
     }
+    
     
     // MARK: Setup Map
     func setUpView () {
@@ -58,38 +70,12 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate , GMSMapV
      */
     func createFloatingButton () {
         // Create float button
-        let floatButton = KCFloatingActionButton(frame: CGRect(x: 10, y: self.mapView.frame.size.height, width:42, height: 42))
-        floatButton.buttonColor = UIColor.orangeColor()
-        floatButton.plusColor = UIColor.whiteColor()
-        
-        // Create reload button
-        let reloadButton = KCFloatingActionButtonItem()
-        reloadButton.icon = UIImage(named: "Reload")
-        reloadButton.buttonColor = UIColor.orangeColor()
-        
-        // Create share button
-        let shareButton = KCFloatingActionButtonItem()
-        shareButton.icon = UIImage(named: "Add")
-        shareButton.buttonColor = UIColor.orangeColor()
-        
-        // Craete info button
-        let infoButton = KCFloatingActionButtonItem()
-        infoButton.icon = UIImage(named: "Info")
-        infoButton.buttonColor = UIColor.orangeColor()
-        
-        floatButton.addItem(item: reloadButton) { (KCFloatingActionButtonItem) -> Void in
-            print ("Test")
-        }
-        
-        floatButton.addItem(item: shareButton) { (KCFloatingActionButtonItem) -> Void in
-            print ("Test")
-        }
-        
-        floatButton.addItem(item: infoButton) { (KCFloatingActionButtonItem) -> Void in
-            print ("Test")
-        }
-        
-        self.view.addSubview(floatButton)
+        floatingActionButton = LiquidFloatingActionButton(frame: CGRect(x: 10, y: self.mapView.frame.size.height, width:52, height: 52))
+        floatingActionButton.dataSource = self
+        floatingActionButton.delegate = self
+        floatingActionButton.animateStyle = .Up
+        floatingActionButton.color = UIColor.orangeColor()
+        self.view.addSubview(floatingActionButton)
     }
     /**
      Setup map view
@@ -150,4 +136,38 @@ class APMapViewController: UIViewController ,CLLocationManagerDelegate , GMSMapV
         }
         
     }
+    // MARK: - Liquid Floating Data Source & Delegate
+    
+    func numberOfCells(liquidFloatingActionButton: LiquidFloatingActionButton) -> Int {
+        return cells.count
+    }
+    func cellForIndex(index: Int) -> LiquidFloatingCell {
+        return cells[index]
+    }
+    
+    func liquidFloatingActionButton(liquidFloatingActionButton: LiquidFloatingActionButton, didSelectItemAtIndex index: Int) {
+        switch(index) {
+        case 0:
+            self.performSegueWithIdentifier("showShareLocationVC", sender: self)
+        case 1:
+            break
+        case 2:
+            break
+        default:
+            break
+        }
+        liquidFloatingActionButton.close()
+    }
+    
+    // MARK: - Navigation Controller
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "showShareLocationVC") {
+            let shareLocationViewController = segue.destinationViewController as? ShareLocationViewController
+//            if let currentLocation = locationManager.location {
+//                shareLocationViewController?.currentLocation = currentLocation
+//            }
+            shareLocationViewController?.currentLocation = (locationManager.location?.coordinate)!
+        }
+    }
+    
 }

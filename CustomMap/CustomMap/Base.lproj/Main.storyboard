@@ -62,11 +62,30 @@
                     <connections>
                         <outlet property="mapView" destination="vz2-UV-6Cu" id="LSC-6o-8MC"/>
                         <outlet property="menuButton" destination="5eV-xa-PcF" id="bV7-uq-MW7"/>
+                        <segue destination="bdu-fl-IhF" kind="show" identifier="showShareLocationVC" id="cZ2-CV-IWg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZ4-BB-Eqw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637" y="-13"/>
+            <point key="canvasLocation" x="1562" y="-91"/>
+        </scene>
+        <!--Share Location View Controller-->
+        <scene sceneID="htg-Mh-FP1">
+            <objects>
+                <viewController id="bdu-fl-IhF" customClass="ShareLocationViewController" customModule="CustomMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rW6-bm-3N0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mge-Qw-aUd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1JB-Ft-kEs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VeL-gY-83L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1540" y="677"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="sJA-0u-K7b">
@@ -102,7 +121,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2X-rK-dUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="663"/>
+            <point key="canvasLocation" x="837" y="677"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tbV-td-HaW">
